@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <sg.gov.tech.bluetrace.settings.BarcodeHeaderView
+            android:id="@+id/barcode_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:src="@drawable/edit_button"
+                android:visibility="invisible" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/ProfileTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/icon_tint"
+                android:text="@string/name"
+                app:drawableLeftCompat="@drawable/person" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_name"
+                style="@style/ProfileField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/default_underline"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:text=""
+                android:textAllCaps="true" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/ProfileTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/icon_tint"
+                android:text="@string/mobile_number"
+                app:drawableLeftCompat="@drawable/mobile" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_mobile_no"
+                style="@style/ProfileField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/icon_tint"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_date_of_birth_header"
+                    style="@style/ProfileTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:drawablePadding="8dp"
+                    android:drawableTint="@color/icon_tint"
+                    android:text="@string/date_of_birth"
+                    app:drawableLeftCompat="@drawable/usercalendar" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_date_of_birth"
+                    style="@style/ProfileField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text=""
+                    app:layout_constraintTop_toBottomOf="@id/nricLayout" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_nric_title"
+                style="@style/ProfileTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/icon_tint"
+                android:text="@string/nric"
+                app:drawableLeftCompat="@drawable/card" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_nric_fin"
+                style="@style/ProfileField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/default_underline"
+                android:imeOptions="actionNext"
+                android:inputType="textCapCharacters"
+                android:singleLine="true"
+                android:text=""
+                android:textAllCaps="true" />
+
+            <LinearLayout
+                android:id="@+id/ll_date_of_issue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/ProfileTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:drawablePadding="8dp"
+                    android:drawableTint="@color/icon_tint"
+                    android:text="@string/date_of_issue"
+                    app:drawableLeftCompat="@drawable/calendar" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_date_of_issue"
+                    style="@style/ProfileField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text=""
+                    app:layout_constraintTop_toBottomOf="@id/nricLayout" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_serial_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/ProfileTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:drawablePadding="8dp"
+                    android:drawableTint="@color/icon_tint"
+                    android:text="@string/card_serial_number"
+                    app:drawableLeftCompat="@drawable/number" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_card_number"
+                    style="@style/ProfileField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text=""
+                    app:layout_constraintTop_toBottomOf="@id/nricLayout" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/profilePageFragmentLoadingProgressBarFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:animateLayoutChanges="true"
+        android:background="#000000"
+        android:visibility="invisible">
+
+        <ProgressBar
+            android:id="@+id/loadingProgressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/view_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:animateLayoutChanges="true"
+        android:background="#000000"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="invisible">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

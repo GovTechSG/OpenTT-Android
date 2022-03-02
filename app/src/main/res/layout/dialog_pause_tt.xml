@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/OnboardingSubDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="@string/paused_text" />
+
+    <RadioGroup
+        android:id="@+id/pause_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dp">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/pause_30m"
+            style="@style/OnboardingSubDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pause_tt_30m"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/pause_2h"
+            style="@style/OnboardingSubDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pause_tt_2h"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/pause_8h"
+            style="@style/OnboardingSubDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pause_tt_8h"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RadioGroup>
+
+</LinearLayout>
+

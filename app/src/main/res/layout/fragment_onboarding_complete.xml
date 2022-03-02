@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clRoot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="24dp"
+                card_view:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/on_boarding_banner"
+                    style="@style/OnboardingImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/stdone"
+                    card_view:layout_constraintLeft_toLeftOf="parent"
+                    card_view:layout_constraintRight_toRightOf="parent"
+                    card_view:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_title"
+                    style="@style/OnboardingTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="left"
+                    android:text="@string/your_app_is_working_now"
+                    android:visibility="visible"
+                    card_view:layout_constraintLeft_toLeftOf="parent"
+                    card_view:layout_constraintRight_toRightOf="parent"
+                    card_view:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_desc"
+                    style="@style/OnboardingDescNoPadding"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="42dp"
+                    android:text="@string/keep_your_app_open"
+                    android:visibility="visible"
+                    card_view:layout_constraintLeft_toLeftOf="parent"
+                    card_view:layout_constraintRight_toRightOf="parent"
+                    card_view:layout_constraintTop_toBottomOf="@+id/on_boarding_banner" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_desc2"
+                    style="@style/OnboardingDescNoPadding"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="42dp"
+                    android:text="@string/hang_in_there"
+                    android:visibility="visible"
+                    card_view:layout_constraintLeft_toLeftOf="parent"
+                    card_view:layout_constraintRight_toRightOf="parent"
+                    card_view:layout_constraintTop_toBottomOf="@id/tv_desc" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Space
+                android:id="@+id/space"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toTopOf="@id/btn_yes"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/clRoot" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_yes"
+                style="@style/ActionButton.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_red"
+                android:text="@string/yes"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

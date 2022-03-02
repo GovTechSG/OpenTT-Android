@@ -1,0 +1,398 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.appdistribution'
+apply plugin: "androidx.navigation.safeargs.kotlin"
+// Apply the Crashlytics Gradle plugin
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'org.owasp.dependencycheck'
+buildscript {
+    repositories {
+        google()
+
+    }
+    dependencies {
+        classpath 'com.google.firebase:firebase-appdistribution-gradle:1.3.1'
+    }
+}
+
+def getGitHash = { ->
+    def stdout = new ByteArrayOutputStream()
+    exec {
+        commandLine 'git', 'rev-parse', '--short', 'HEAD'
+        standardOutput = stdout
+    }
+    return stdout.toString().trim()
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "sg.gov.tech.bluetrace"
+        resValue "string", "build_config_package", "sg.gov.tech.bluetrace"
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 105
+        versionName "2.7.0"
+        buildConfigField "String", "GITHASH", "\"${getGitHash()}\""
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation":
+                                     "$projectDir/schemas".toString()]
+            }
+        }
+
+        buildConfigField "boolean", "WAKE_LOCK", WAKE_LOCK
+
+        buildConfigField "String", "FIREBASE_REGION", FIREBASE_REGION
+
+        buildConfigField "String", "ZENDESK_URL", ZENDESK_URL
+        buildConfigField "String", "CHECK_FOR_SYMPTOMS_URL", CHECK_FOR_SYMPTOMS_URL
+        buildConfigField "String", "HOW_POSSIBLE_EXPOSURE_DETERMINED_URL", HOW_POSSIBLE_EXPOSURE_DETERMINED_URL
+        buildConfigField "String", "YOUR_POSSIBLE_EXPOSURE_URL", YOUR_POSSIBLE_EXPOSURE_URL
+        buildConfigField "String", "ZENDESK_HOME_ALONE_URL", ZENDESK_HOME_ALONE_URL
+        buildConfigField "String", "ZENDESK_WHY_CANT_I_USE_URL", ZENDESK_WHY_CANT_I_USE_URL
+        buildConfigField "String", "ZENDESK_CANT_ACTIVATE_MY_TT_APP_URL", ZENDESK_CANT_ACTIVATE_MY_TT_APP_URL
+        buildConfigField "String", "ZENDESK_PP_PROFILE_BLOCKED_HELP_URL", ZENDESK_PP_PROFILE_BLOCKED_HELP_URL
+        buildConfigField "String", "ZENDESK_APP_ID", ZENDESK_APP_ID
+        buildConfigField "String", "ZENDESK_CLIENT_ID", ZENDESK_CLIENT_ID
+
+        buildConfigField "String", "PLAY_STORE_URL", PLAY_STORE_URL
+        buildConfigField "String", "HUAWEI_APP_GALLERY_URL", HUAWEI_APP_GALLERY_URL
+        buildConfigField "String", "PRIVACY_URL", PRIVACY_URL
+        buildConfigField "String", "TERMS_OF_USE_URL", TERMS_OF_USE_URL
+        buildConfigField "String", "SAFE_TRAVEL_URL", SAFE_TRAVEL_URL
+        buildConfigField "String", "REPORT_VULNERABILITY_URL", REPORT_VULNERABILITY_URL
+        buildConfigField "String", "ACKNOWLEDGEMENT_URL", ACKNOWLEDGEMENT_URL
+        buildConfigField "String", "GDS_LOGO_URL", GDS_LOGO_URL
+
+
+
+        buildConfigField "String", "ORG", ORG
+        buildConfigField "int", "SERVICE_FOREGROUND_NOTIFICATION_ID", SERVICE_FOREGROUND_NOTIFICATION_ID
+        buildConfigField "String", "SERVICE_FOREGROUND_CHANNEL_ID", SERVICE_FOREGROUND_CHANNEL_ID
+        buildConfigField "String", "SERVICE_FOREGROUND_CHANNEL_NAME", SERVICE_FOREGROUND_CHANNEL_NAME
+
+        buildConfigField "int", "PUSH_NOTIFICATION_ID", PUSH_NOTIFICATION_ID
+        buildConfigField "String", "PUSH_NOTIFICATION_CHANNEL_NAME", PUSH_NOTIFICATION_CHANNEL_NAME
+
+        buildConfigField "long", "SCAN_DURATION", SCAN_DURATION
+        buildConfigField "long", "MIN_SCAN_INTERVAL", MIN_SCAN_INTERVAL
+        buildConfigField "long", "MAX_SCAN_INTERVAL", MAX_SCAN_INTERVAL
+        buildConfigField "int", "MIN_RSSI", MIN_RSSI
+        buildConfigField "long", "BTL_SCAN_DURATION", BTL_SCAN_DURATION
+        buildConfigField "long", "BTL_MIN_SCAN_INTERVAL", BTL_MIN_SCAN_INTERVAL
+        buildConfigField "long", "BTL_MAX_SCAN_INTERVAL", BTL_MAX_SCAN_INTERVAL
+
+        buildConfigField "long", "MAX_QUEUE_TIME", MAX_QUEUE_TIME
+        buildConfigField "long", "BM_CHECK_INTERVAL", BM_CHECK_INTERVAL
+        buildConfigField "long", "HEALTH_CHECK_INTERVAL", HEALTH_CHECK_INTERVAL
+        buildConfigField "long", "PURGE_INTERVAL", PURGE_INTERVAL
+        buildConfigField "long", "PURGE_TTL", PURGE_TTL
+        buildConfigField "int", "PURGE_DAYS", PURGE_DAYS
+        buildConfigField "int", "PURGE_SE_DAYS", PURGE_SE_DAYS
+        buildConfigField "int", "LOG_PURGE_DAYS", LOG_PURGE_DAYS
+
+        buildConfigField "long", "CONNECTION_TIMEOUT", CONNECTION_TIMEOUT
+        buildConfigField "long", "BLACKLIST_DURATION", BLACKLIST_DURATION
+        buildConfigField "long", "ACTIVITY_SESSION_DURATION", ACTIVITY_SESSION_DURATION
+        buildConfigField "long", "ACTIVITY_MIN_TRANSIENT_DURATION", ACTIVITY_MIN_TRANSIENT_DURATION
+        buildConfigField "boolean", "ACTIVITY_SHOW_DETAILS", ACTIVITY_SHOW_DETAILS
+
+        buildConfigField "long", "ADVERTISING_DURATION", ADVERTISING_DURATION
+        buildConfigField "long", "ADVERTISING_INTERVAL", ADVERTISING_INTERVAL
+
+        buildConfigField "String", "V2_CHARACTERISTIC_ID", V2_CHARACTERISTIC_ID
+
+        buildConfigField "String", "ID_VALIDATION_FAILED", ID_VALIDATION_FAILED
+        buildConfigField "String", "FIN_START_WITH", FIN_START_WITH
+        buildConfigField "String", "SE_VENUE_URL1", SE_VENUE_URL1
+        buildConfigField "String", "SE_VENUE_URL2", SE_VENUE_URL2
+        buildConfigField "String", "SE_TERMS_URL", SE_TERMS_URL
+
+        buildConfigField "String", "PRIVACY_SAFEGUARDS_URL", PRIVACY_SAFEGUARDS_URL
+        buildConfigField "String", "SERIOUS_OFFENCES_URL", SERIOUS_OFFENCES_URL
+        buildConfigField "float", "LATEST_UPDATE", LATEST_UPDATE
+
+        buildConfigField "boolean", "ADVERTISE_BTL", ADVERTISE_BTL
+        buildConfigField "boolean", "SCAN_BTL", SCAN_BTL
+        buildConfigField "boolean", "ADVERTISE_BT", ADVERTISE_BT
+        buildConfigField "boolean", "SCAN_BT", SCAN_BT
+        buildConfigField "int", "NO_OF_DAYS_FOR_HISTORY", NO_OF_DAYS_FOR_HISTORY
+
+        buildConfigField "String", "REMOTE_CONFIG_ANNOUNCEMENT_DEFAULT_VALUE", REMOTE_CONFIG_ANNOUNCEMENT_DEFAULT_VALUE
+        buildConfigField "String", "REMOTE_CONFIG_TOGGLE_PE_DEFAULT_VALUE", REMOTE_CONFIG_TOGGLE_PE_DEFAULT_VALUE
+        buildConfigField "String", "REMOTE_CONFIG_USE_TT_OTP_DEFAULT_VALUE", REMOTE_CONFIG_USE_TT_OTP_DEFAULT_VALUE
+        buildConfigField "String", "REMOTE_CONFIG_PRIVACY_STATEMENT_DEFAULT_VALUE", REMOTE_CONFIG_PRIVACY_STATEMENT_DEFAULT_VALUE
+
+        testOptions {
+            unitTests.returnDefaultValues = true
+        }
+    }
+    signingConfigs {
+        staging {
+//            String fileContent = System.getenv("STAGING_KEYSTORE") != null ? System.getenv("STAGING_KEYSTORE") : ""
+//            java.nio.file.Files.write(java.nio.file.Paths.get("/tmp/staging-keystore.jks"), Base64.getDecoder().decode(fileContent))
+
+            // keytool -list -v -alias staging -keystore /tmp/staging-keystore.jks
+            storeFile file("/tmp/staging-keystore.jks")
+            storePassword System.getenv("STAGING_KEYSTORE_PWD")
+            keyAlias System.getenv("STAGING_KEY_ALIAS")
+            keyPassword System.getenv("STAGING_KEY_PWD")
+        }
+    }
+    buildTypes {
+        debug {
+            buildConfigField "String", "FIREBASE_UPLOAD_BUCKET", STAGING_FIREBASE_UPLOAD_BUCKET
+            buildConfigField "String", "FIREBASE_UPLOAD_LOGS_BUCKET", STAGING_FIREBASE_UPLOAD_LOGS_BUCKET
+            buildConfigField "String", "BLE_SSID", STAGING_SERVICE_UUID
+            buildConfigField "String", "BT_LITE_SSID", STAGING_BT_LITE_SSID
+            buildConfigField "String", "GOOGLE_API_KEY", STAGING_GOOGLE_API_KEY
+            buildConfigField "String", "IOS_BACKGROUND_UUID", STAGING_IOS_ENCODED_UUID
+
+            String ssid = STAGING_SERVICE_UUID
+            versionNameSuffix "-debug-${getGitHash()}-${ssid.substring(ssid.length() - 5, ssid.length() - 1)}"
+            resValue "string", "app_name", "TraceTogether Debug"
+            applicationIdSuffix ".staging"
+
+            multiDexEnabled false
+            zipAlignEnabled true
+
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile(
+                    'proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
+
+        }
+
+        staging {
+            buildConfigField "String", "FIREBASE_UPLOAD_BUCKET", STAGING_FIREBASE_UPLOAD_BUCKET
+            buildConfigField "String", "FIREBASE_UPLOAD_LOGS_BUCKET", STAGING_FIREBASE_UPLOAD_LOGS_BUCKET
+            buildConfigField "String", "BLE_SSID", STAGING_SERVICE_UUID
+            buildConfigField "String", "BT_LITE_SSID", STAGING_BT_LITE_SSID
+            buildConfigField "String", "GOOGLE_API_KEY", STAGING_GOOGLE_API_KEY
+            buildConfigField "String", "IOS_BACKGROUND_UUID", STAGING_IOS_ENCODED_UUID
+
+            // Retrieve bluetooth ssid from staging's strings.xml
+            String ssid = STAGING_SERVICE_UUID
+            versionNameSuffix "-debug-${getGitHash()}-${ssid.substring(ssid.length() - 5, ssid.length() - 1)}"
+            debuggable true
+            // Create staging build and send to Firebase with: ./gradlew assembleStaging appDistributionUploadStaging
+            String rlNotes = System.getenv("RELEASE_NOTES") != null ? System.getenv("RELEASE_NOTES") : "Automated STAGING Build"
+            firebaseAppDistribution {
+                serviceCredentialsFile System.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+                releaseNotes rlNotes
+                groups "TTTeam-Staging"
+            }
+            signingConfig signingConfigs.staging
+            resValue "string", "app_name", "TraceTogether Staging"
+            versionNameSuffix "-staging"
+            applicationIdSuffix ".staging"
+
+            lintOptions {
+                // Ignore lint errors for now
+                abortOnError false
+            }
+
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile(
+                    'proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
+        }
+        release {
+
+            buildConfigField "String", "FIREBASE_UPLOAD_BUCKET", PRODUCTION_FIREBASE_UPLOAD_BUCKET
+            buildConfigField "String", "FIREBASE_UPLOAD_LOGS_BUCKET", PRODUCTION_FIREBASE_UPLOAD_LOGS_BUCKET
+            buildConfigField "String", "BLE_SSID", PRODUCTION_SERVICE_UUID
+            buildConfigField "String", "BT_LITE_SSID", PRODUCTION_BT_LITE_SSID
+            buildConfigField "String", "GOOGLE_API_KEY", PRODUCTION_GOOGLE_API_KEY
+            buildConfigField "String", "IOS_BACKGROUND_UUID", PRODUCTION_IOS_ENCODED_UUID
+
+
+            debuggable false
+            jniDebuggable false
+            renderscriptDebuggable false
+            multiDexEnabled false
+            zipAlignEnabled true
+
+            minifyEnabled true
+            resValue "string", "app_name", "TraceTogether"
+            proguardFiles getDefaultProguardFile(
+                    'proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
+
+            String rlNotes = System.getenv("RELEASE_NOTES") != null ? System.getenv("RELEASE_NOTES") : "Automated RELEASE Build"
+            firebaseAppDistribution {
+                serviceCredentialsFile System.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+                releaseNotes rlNotes
+                groups "TTTeam"
+            }
+            lintOptions {
+                // Ignore lint errors for now
+                abortOnError false
+            }
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/atomicfu.kotlin_module'
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    bundle {
+        language {
+            enableSplit false
+        }
+    }
+
+    // Add for using latest experimental build of Android Extensions
+    androidExtensions {
+        experimental = true
+    }
+}
+
+repositories {
+    maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation group: 'androidx.localbroadcastmanager', name: 'localbroadcastmanager', version: '1.0.0-alpha3'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'pub.devrel:easypermissions:3.0.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.google.firebase:firebase-config-ktx:19.1.2'
+    implementation 'com.google.firebase:firebase-analytics:17.2.3'
+    implementation 'com.google.firebase:firebase-crashlytics:17.2.1'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.hbb20:ccp:2.3.4'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    androidTestImplementation 'androidx.test:runner:1.3.0'
+    androidTestImplementation 'androidx.test:core:1.3.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.7.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // Room components
+    def room_version = "2.2.3"
+    def koin_version = '2.1.6'
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+
+    // For Kotlin use kapt instead of annotationProcessor
+
+    // optional - Kotlin Extensions and Coroutines support for Room
+    implementation "androidx.room:room-ktx:$room_version"
+
+    // optional - RxJava support for Room
+    implementation "androidx.room:room-rxjava2:$room_version"
+
+    // optional - Guava support for Room, including Optional and ListenableFuture
+    implementation "androidx.room:room-guava:$room_version"
+
+    // Test helpers
+    testImplementation "androidx.room:room-testing:$room_version"
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    implementation "com.google.android.material:material:1.2.0-alpha06"
+
+    def archLifecycleVersion = "2.2.0"
+    // Lifecycle components
+    implementation "androidx.lifecycle:lifecycle-extensions:$archLifecycleVersion"
+    kapt "androidx.lifecycle:lifecycle-compiler:$archLifecycleVersion"
+
+    // ViewModel Kotlin support
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$archLifecycleVersion"
+
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.17'
+
+    implementation platform('com.google.firebase:firebase-bom:26.0.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-functions'
+    implementation 'com.google.firebase:firebase-messaging'
+
+    //Custom Tabs used for reCAPTCHA during onboarding
+    implementation "androidx.browser:browser:1.2.0"
+
+    //bottom navigation
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.2.1'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.2.1'
+
+    //cardview
+    implementation 'androidx.cardview:cardview:1.0.0'
+
+    implementation 'com.github.aabhasr1:OtpView:v1.1.2-ktx'
+
+    implementation 'com.google.guava:guava:28.2-android'
+
+    //Zendesk
+    implementation 'com.zendesk:support:2.2.1'
+
+    //Lottie
+    implementation 'com.airbnb.android:lottie:3.4.0'
+
+    implementation 'com.android.volley:volley:1.1.1'
+
+    implementation "net.zetetic:android-database-sqlcipher:4.3.0"
+    implementation "androidx.sqlite:sqlite:2.1.0"
+
+    implementation 'com.github.Ibotta:Supported-Picker-Dialogs:1.0.0'
+    implementation 'com.chaos.view:pinview:1.4.3'
+    implementation 'com.google.zxing:core:3.2.1'
+    implementation 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
+
+    implementation 'com.matthew-tamlin:sliding-intro-screen:3.2.0'
+    implementation 'com.google.android:flexbox:2.0.1'
+
+    implementation 'com.github.amlcurran.showcaseview:library:5.4.3'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    implementation 'com.google.android.gms:play-services-vision:20.0.0'
+    implementation 'com.google.mlkit:barcode-scanning:16.1.1'
+
+    def work_version = "2.3.4"
+    // (Java only)
+    implementation "androidx.work:work-runtime:$work_version"
+    // Kotlin + coroutines
+    implementation "androidx.work:work-runtime-ktx:$work_version"
+    // optional - RxJava2 support
+    implementation "androidx.work:work-rxjava2:$work_version"
+    // optional - GCMNetworkManager support
+    implementation "androidx.work:work-gcm:$work_version"
+    // optional - Test helpers
+    androidTestImplementation "androidx.work:work-testing:$work_version"
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+
+    //For custom api call from firebase
+    implementation 'com.squareup.retrofit2:retrofit:2.6.3'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.3'
+
+    implementation "org.koin:koin-android:$koin_version"
+    implementation "org.koin:koin-android-viewmodel:$koin_version"
+    testImplementation "org.koin:koin-test:$koin_version"
+    implementation "org.koin:koin-androidx-scope:$koin_version"
+    implementation 'io.mockk:mockk:1.9.2'
+    testImplementation 'androidx.arch.core:core-testing:2.1.0'
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.3.2'
+}
+

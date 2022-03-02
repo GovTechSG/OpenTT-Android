@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clRoot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/topLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tv_main_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/verify_your_mobile_number"
+                        android:textColor="@color/grey_2"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/sent_to"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/otp_sent"
+                        android:textColor="#505050"
+                        android:textSize="16sp" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/wrongNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:paddingTop="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/wrong_number"
+                        android:textColor="@color/hyperlink_blue"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/middleLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="visible"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/topLayout"
+                    app:layout_constraintVertical_weight="3">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:id="@+id/editTextLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="30dp"
+                        android:paddingRight="30dp"
+                        android:visibility="gone"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent">
+
+                        <EditText
+                            android:id="@+id/et_code_1"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toLeftOf="@+id/et_code_2"
+                            app:layout_constraintTop_toBottomOf="@+id/tv_enter_code" />
+
+                        <EditText
+                            android:id="@+id/et_code_2"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            app:layout_constraintLeft_toRightOf="@+id/et_code_1"
+                            app:layout_constraintRight_toLeftOf="@+id/et_code_3"
+                            app:layout_constraintTop_toBottomOf="@+id/tv_enter_code" />
+
+                        <EditText
+                            android:id="@+id/et_code_3"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            app:layout_constraintLeft_toRightOf="@+id/et_code_2"
+                            app:layout_constraintRight_toLeftOf="@+id/et_code_4"
+                            app:layout_constraintTop_toBottomOf="@+id/tv_enter_code" />
+
+                        <EditText
+                            android:id="@+id/et_code_4"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            app:layout_constraintLeft_toRightOf="@+id/et_code_3"
+                            app:layout_constraintRight_toLeftOf="@+id/et_code_5"
+                            app:layout_constraintTop_toBottomOf="@+id/tv_enter_code" />
+
+                        <EditText
+                            android:id="@+id/et_code_5"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            app:layout_constraintLeft_toRightOf="@+id/et_code_4"
+                            app:layout_constraintRight_toLeftOf="@+id/et_code_6"
+                            app:layout_constraintTop_toBottomOf="@+id/tv_enter_code" />
+
+                        <EditText
+                            android:id="@+id/et_code_6"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:inputType="number"
+                            android:maxLength="1"
+                            app:layout_constraintLeft_toRightOf="@+id/et_code_5"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/tv_enter_code" />
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp">
+
+                        <com.chaos.view.PinView
+                            android:id="@+id/firstPinView"
+                            style="@style/PinWidget.PinView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:cursorVisible="true"
+                            android:gravity="center"
+                            android:hint="------"
+                            android:imeOptions="actionGo"
+                            android:inputType="number"
+                            android:textColor="@color/grey_1"
+                            android:textIsSelectable="false"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+                            app:cursorColor="@color/new_accent"
+                            app:cursorWidth="2dp"
+                            app:hideLineWhenFilled="false"
+                            app:itemCount="6"
+                            app:itemHeight="48dp"
+                            app:itemRadius="4dp"
+                            app:itemSpacing="8dp"
+                            app:itemWidth="38dp"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:lineColor="@color/otp_box_selector"
+                            app:lineWidth="2dp"
+                            app:viewType="rectangle" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tv_error"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            android:gravity="left"
+                            android:text=""
+                            android:textColor="@color/error"
+                            android:textSize="16sp"
+                            android:textStyle="normal"
+                            android:visibility="visible"
+                            app:layout_constraintLeft_toLeftOf="@+id/firstPinView"
+                            app:layout_constraintRight_toRightOf="@+id/firstPinView"
+                            app:layout_constraintTop_toBottomOf="@+id/firstPinView" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/resendCode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:background="@color/white"
+                            android:backgroundTint="@color/resend_background_selector"
+                            android:enabled="false"
+                            android:padding="8dp"
+                            android:text="@string/resend"
+                            android:textAllCaps="false"
+                            android:textColor="@color/resend_text_selector"
+                            app:layout_constraintRight_toRightOf="@id/tv_error"
+                            app:layout_constraintTop_toBottomOf="@id/tv_error"
+                            tools:ignore="UnknownId" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_disclaimer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="24dp"
+                android:layout_marginHorizontal="24dp"
+                android:text="@string/oversea_number_disclaimer_text"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/clRoot"
+                app:layout_constraintBottom_toTopOf="@id/space"
+                />
+
+            <Space
+                android:id="@+id/space"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toTopOf="@id/btn_verify"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_disclaimer" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_verify"
+                style="@style/ActionButton.Horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/verify"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

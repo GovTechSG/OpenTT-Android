@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/overlay_title"
+        android:gravity="center"
+        android:text="@string/app_not_working"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintBottom_toTopOf="@id/allow"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/sadApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:srcCompat="@drawable/sad_app"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/pleaseAllow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/sadApp"
+            android:layout_marginTop="24dp"
+            style="@style/overlay_text"
+            android:text="@string/please_allow_permissions"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/one"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintTop_toBottomOf="@id/pleaseAllow"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:background="@drawable/circle_bg"
+            android:textSize="14sp"
+            android:textColor="@color/grey_14"
+            android:textStyle="bold"
+            android:text="@string/one"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/one"
+            app:layout_constraintBottom_toBottomOf="@id/one"
+            app:layout_constraintLeft_toRightOf="@id/one"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            style="@style/overlay_text"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/two"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintTop_toBottomOf="@id/one"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:background="@drawable/circle_bg"
+            android:textSize="14sp"
+            android:textColor="@color/grey_14"
+            android:textStyle="bold"
+            android:text="@string/two"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/two"
+            app:layout_constraintBottom_toBottomOf="@id/two"
+            app:layout_constraintLeft_toRightOf="@id/two"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            style="@style/overlay_text"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/three"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintTop_toBottomOf="@id/two"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:background="@drawable/circle_bg"
+            android:textSize="14sp"
+            android:textColor="@color/grey_14"
+            android:textStyle="bold"
+            android:text="@string/three"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/three"
+            app:layout_constraintBottom_toBottomOf="@id/three"
+            app:layout_constraintLeft_toRightOf="@id/three"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            style="@style/overlay_text"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/four"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintTop_toBottomOf="@id/three"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:background="@drawable/circle_bg"
+            android:textSize="14sp"
+            android:textColor="@color/grey_14"
+            android:textStyle="bold"
+            android:text="@string/four"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tFourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/four"
+            app:layout_constraintBottom_toBottomOf="@id/four"
+            app:layout_constraintLeft_toRightOf="@id/four"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            style="@style/overlay_text"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/allow"
+        style="@style/ActionButton.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/allow"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

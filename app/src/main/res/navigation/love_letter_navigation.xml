@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/love_letter_navigation"
+    app:startDestination="@id/onboardingWithLoveFragment">
+
+    <fragment
+        android:id="@+id/onboardingWithLoveFragment"
+        android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.OnboardingWithLoveFragment"
+        android:label="OnboardingWithLoveFragment" >
+        <action
+            app:enterAnim="@animator/window_slideleft_enter"
+            app:exitAnim="@animator/window_slideleft_exit"
+            app:popEnterAnim="@animator/window_slideright_enter"
+            app:popExitAnim="@animator/window_slideright_exit"
+            android:id="@+id/action_onboardingWithLoveFragment_to_onboardingDearPeopleFragment"
+            app:destination="@id/onboardingDearPeopleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingDearPeopleFragment"
+        android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.OnboardingDearPeopleFragment"
+        android:label="OnboardingDearPeopleFragment" >
+        <action
+            android:id="@+id/action_onboardingDearPeopleFragment_to_howItWorksActivity"
+            app:destination="@id/howItWorksActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/howItWorksActivity"
+        android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.HowItWorksActivity"
+        android:label="HowItWorksActivity" />
+</navigation>

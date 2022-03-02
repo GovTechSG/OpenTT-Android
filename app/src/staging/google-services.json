@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "1033582477261",
+    "firebase_url": "https://govtech-tracer-stg.firebaseio.com",
+    "project_id": "govtech-tracer-stg",
+    "storage_bucket": "govtech-tracer-stg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033582477261:android:e81b9129b680a4adb90e84",
+        "android_client_info": {
+          "package_name": "sg.gov.tech.bluetrace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033582477261-urii48t0issl822790anktktn646i05l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033582477261-urii48t0issl822790anktktn646i05l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1033582477261-8m1q7k0gm8vns82rd9j7pc53tmd48kbd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sg.gov.tech.bluetrace"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033582477261:android:6c85de7729b3310eb90e84",
+        "android_client_info": {
+          "package_name": "sg.gov.tech.bluetrace.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033582477261-gnrh1hc07fcn3rsun1aprcnjaaoosns3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sg.gov.tech.bluetrace.staging",
+            "certificate_hash": "973cbd9d4d4b16e404a506faf64f446959a5fc11"
+          }
+        },
+        {
+          "client_id": "1033582477261-urii48t0issl822790anktktn646i05l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033582477261-urii48t0issl822790anktktn646i05l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1033582477261-8m1q7k0gm8vns82rd9j7pc53tmd48kbd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "sg.gov.tech.bluetrace"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

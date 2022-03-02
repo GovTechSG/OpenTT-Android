@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="to_sg_with_love">စင်္ကာပူ ပြည်သူများသို့၊ မေတ္တာဖြင့်</string>
+    <string name="top_to_open">စာကိုဖွင့်ရန် တို့ထိလိုက်ပါ</string>
+    <string name="dear_singapore">ချစ်ခင်လေးစားအပ်ပါသော စင်္ကာပူပြည်သူများခင်ဗျာ,</string>
+    <string name="onboard_desc_1"> ကျွန်ုပ်တို့သည် ခက်ခဲကြမ်းတမ်းသော နှစ်ကိုကြုံခဲ့ရပြီး ဗိုင်းရပ်စ်ကို တိုက်ဖျက်ရာတွင် စွန့်လွှတ်အနစ်နာခံမှု များစွာရှိခဲ့ပါသည်။ ကျွန်တော်တို့ရဲ့ နှိမ်နင်းမှု နောက်တစ်ဆင့်မှာ ကျွန်တော်တို့ အခြားသူတွေရဲ့ဘဝတွေကို ပုံမှန်ဘဝမှာ နေထိုင်နိုင်အောင်၊ တတ်နိုင်သမျှ ဘေးကင်းလုံခြုံအောင် ကူညီပေးချင်ပါတယ်။</string>
+    <string name="onboard_desc_2">ပိုမိုဘေးကင်းအောင် သင် လုပ်နိုင်ပါတယ်။ TraceTogether ကို သုံးခြင်းနဲ့ တခြားသူတွေ ဒီအက်ပ်ကို သုံးအောင်လုပ်ဆောင်ပေးခြင်းဖြင့် သင်ဟာ ဗိုင်းရပ်စ်ကို ထိန်းချုပ်ဟန့်တားနိုင်ပြီး သင်ချစ်သောသူများကိုလည်း ကာကွယ်ပေးရာရောက်ပါတယ်။</string>
+    <string name="onboard_desc_3">ကျွန်တော်တို့အားလုံးနဲ့အတူ ဘေးကင်းတဲ့ ပုံမှန်ဘဝများကို အသစ်တစ်ဖန်စတင်ဖို့ နေရာတစ်ခုကတော့ ဒီမှာပါ။</string>
+    <string name="back">နောက်သို့</string>
+    <string name="next">ရှေ့သို့</string>
+    <string name="tracetogether_fancy"><![CDATA[<font color="#F06566">Trace</font><font color="#C93E3C">Together</font>]]></string>
+    <string name="help_recall">သင် ဘယ်ကို သွားခဲ့သလဲဆိုတာနဲ့ ပြီးခဲ့တဲ့ ရက်သတ္တပတ်အနည်းငယ်အတွင်း ဘယ်သူတွေ သင်နဲ့အတူရှိခဲ့လဲဆိုတာ <b>သင် မှတ်မိအောင် ကူညီပေးပါတယ်။</b></string>
+    <string name="notifies_you">သင်နှင့်တကွ သင်နှင့်ပါတ်သက်သောသူများကို ကာကွယ်ပေးရန်အတွက် သင် COVID-19 ကူးစက်ခံရပါက သင့်အား <b>လျင်မြန်စွာ အသိပေးအကြောင်းကြားပါသည်</b></string>
+    <string name="how_it_works_2_text_title">လိုအပ်သောအခါတွင်သာ ဒေတာကို သုံးပါသည်</string>
+    <string name="how_it_works_2_text_content">သင့် Bluetooth ထိစပ်မှုဒေတာကို <b>သင့်ဖုန်းတွင် လုံခြုံစွာ သိမ်းဆည်းထားရှိပါသည်။</b> သင့်အား COVID-19 ရောဂါပိုး ကူးစက်ခံရသူအဖြစ် စစ်ဆေးတွေ့ရှိပါက ထိတွေ့မှုခြေရာခံနိုင်ရန်အတွက် အဆိုပါဒေတာကို အပ်လုဒ်လုပ်ပေးရန် ကျန်းမာရေးဝန်ကြီးဌာန (MOH) မှသင့်ထံ တောင်းဆိုပါမည်*။</string>
+    <string name="how_it_works_2_text_content_2">သင့်ဖုန်းတွင် သက်တမ်း ၂၅ ရက်အထက်ကြာ သိမ်းဆည်းထားသည့်ဒေတာသည် အလိုအလျောက်ပျက်သွားမည်ဖြစ်သည်။</string>
+    <string name="lets_go">သွားလိုက်ရအောင်</string>
+    <string name="enter_your_number">သင့်မိုဘိုင်းဖုန်းနံပါတ်ကို ဖြည့်ပါ</string>
+    <string name="moh_use_number">သင်က COVID-19 ကူးစက်ခံရနိုင်ခြေ ရှိခဲ့လျှင် သင့်အား ဆက်သွယ်ရန် MOH က ဤနံပါတ်ကို သုံးပါမည်။</string>
+    <string name="get_otp">OTP ကို ရယူပါ</string>
+    <string name="verify_your_mobile_number">သင့်မိုဘိုင်းနံပါတ်ကို အတည်ပြုပေးပါ</string>
+    <string name="otp_sent">ပို့လိုက်သော တစ်ကြိမ်သုံး-ပင်နံပါတ် (OTP) ကို ရိုက်ထည့်ပေးပါ %s</string>
+    <string name="wrong_number"><u>နံပါတ် မှားနေပါသလား။</u></string>
+    <string name="resend">ပြန်ပို့ပါ</string>
+    <string name="verify">အတည်ပြုပါ</string>
+    <string name="invalid_otp">မှားယွင်းသော OTP နံပါတ်ကို ဖြည့်ထားသည်</string>
+    <string name="select_your_profile">သင့်ပရိုဖိုင်ကို ရွေးချယ်ပါ</string>
+    <string name="profile_nric">စင်္ကာပူနိုင်ငံသား/PR (အသက်အရွယ်အားလုံး)</string>
+    <string name="profile_fin_work">FIN — အလုပ်လုပ်ကိုင်ခွင့်</string>
+    <string name="profile_fin_dependent">FIN — မှီခိုနေထိုင်ခွင့်</string>
+    <string name="profile_fin_student">FIN — ကျောင်းသားနေထိုင်ခွင့်</string>
+    <string name="profile_fin_ltvp">FIN — နှစ်ရှည်လည်ပတ်မှု ဝင်ခွင့်လက်မှတ်</string>
+    <string name="profile_visitor">စင်္ကာပူသို့ လည်ပတ်ခြင်း</string>
+    <string name="proceed">ရှေ့ဆက်ပါ</string>
+    <string name="otp_auto_filled">သင့် OTP ကို အော်တို ဖြည့်လိုက်သည်</string>
+    <string name="close_uppercase">ပိတ်ပါ</string>
+    <string name="why_need_detail">ကျွန်ုပ်၏ အသေးစိတ် အချက်အလက်များကို သင် ဘာ့ကြောင့်လိုအပ်ပါသလဲ။</string>
+    <string name="why_need_detail_desc">ထပ်တူမရှိသော သင်၏ အိုင်ဒီနံပါတ်သည် COVID-19 နှင့် ပတ်သက်ပြီး MOH က သင့်အား အရေးကြီးသော ကျန်းမာရေးဆိုင်ရာ အကြံဉာဏ်များပေးရန် လိုအပ်သောအခါ <b>မှန်ကန်သောလူကို ဆက်သွယ်နိုင်စေသည်။</b></string>
+    <string name="i_see_got_it">နားလည်ပါပြီ။ ရပါပြီ။</string>
+    <string name="have_nric_ready">သင်၏ NRIC သို့မဟုတ် မွေးစာရင်းနံပါတ်ကို အသင့်ထားရှိပါ :)</string>
+    <string name="nric_profile_title">သင်၏ NRIC အသေးစိတ်</string>
+    <string name="wp_profile_title">သင်၏ FIN-အလုပ်လုပ်ကိုင်ခွင့် အသေးစိတ်</string>
+    <string name="dp_profile_title">သင်၏ FIN-မှီခိုနေထိုင်ခွင့် အသေးစိတ်</string>
+    <string name="stp_profile_title">သင်၏ FIN-ကျောင်းသားနေထိုင်ခွင့် အသေးစိတ်</string>
+    <string name="ltvp_profile_title">သင်၏ FIN-နှစ်ရှည်လည်ပတ်မှု ဝင်ခွင့်လက်မှတ် အသေးစိတ်</string>
+    <string name="passport_profile_title">သင်၏ ပတ်စပို့အသေးစိတ်</string>
+    <string name="name">အမည်</string>
+    <string name="nric_birth_cert_no_title">NRIC / မွေးစာရင်း နံပါတ်</string>
+    <string name="date_of_birth">မွေးသက္ကရာဇ်</string>
+    <string name="date_of_issue">ထုတ်ပေးသည့် ရက်စွဲ</string>
+    <string name="nric_date_of_issue">NRIC ထုတ်ပေးသည့် ရက်စွဲ</string>
+    <string name="fin_date_of_issue">FIN ထုတ်ပေးသည့် ရက်စွဲ</string>
+    <string name="dob_passport">မွေးသက္ကရာဇ် (ပတ်စပို့အရ)</string>
+    <string name="date_of_issue_ddmmyyyy">ထုတ်ပေးသည့် ရက်စွဲ (DD-MM-YYYY)</string>
+    <string name="how_to_find"><u>ဘယ်လို ရှာမလဲ။</u></string>
+    <string name="for_national_servicemen">အစိုးရ အမှုထမ်းများအတွက် သင့် NRIC ၏ နောက်ကျောတွင် ဖော်ပြထားသော ထုတ်ပေးသည့်ရက်စွဲနှင့် ပတ်သက်ပြီး သင့်ဌာန၏ အကြီးတန်းမှတ်တမ်းအရာရှိအား ဆက်သွယ်ပါ။</string>
+    <string name="nric_below_17">အသက် 17 နှစ်အောက် ရှိသူများအတွက် NRIC ထုတ်ပေးသည့်ရက်စွဲ မလိုအပ်ပါ။</string>
+    <string name="moh_use_info">သင်ဖော်ပြထားသော အသေးစိတ်အချက်အလက်များသည် မှန်ကန်မှုရှိပါသည်။ သင်သည် ကျွန်ုပ်တို့၏ အသုံးပြုမှုစည်းမျဉ်းများ၊ ကိုယ်ရေးအချက်အလက်ဆိုင်ရာ ကြေညာချက်နှင့် ထိတွေ့မှုအား ခြေရာခံရန် ရည်ရွယ်ချက်အတွက် သင့် Bluetooth ဒေတာအား အပ်လုဒ်လုပ်ပေးရန် MOH မှ သင့်ထံ တောင်းဆိုခွင့်တို့ကို သဘောတူလက်ခံထားပါသည်။</string>
+    <string name="terms_of_Use">အသုံးပြုမှုစည်းမျဉ်းများ၊</string>
+    <string name="privacy_statement">ကိုယ်ရေးအချက်အလက်ဆိုင်ရာ ကြေညာချက်</string>
+    <string name="invalid_date">ရက်စွဲ မှားနေသည်</string>
+    <string name="invalid_nric">NRIC မှားနေသည်</string>
+    <string name="fin_entered_in_nric_error">ကျေးဇူးပြုပြီးနောက်ကိုအသာပုတ်ပြီး FIN ပရိုဖိုင်ကိုရွေးချယ်ပါ။</string>
+    <string name="validation_failed">မှန်ကန်ကြောင်းအတည်ပြုမှု မအောင်မြင်ပါ။ အနီရောင်ပါ အကွက်များအားလုံးကို စစ်ဆေးပါ</string>
+    <string name="back_of_nric">သင့် NRIC ကတ်၏ <u>ကျောဘက်</u></string>
+    <string name="have_work_pass_ready">သင်၏ အလုပ်လုပ်ကိုင်ခွင့်ကတ်ကို အသင့်ပြင်ထားပေးပါ :)</string>
+    <string name="have_dependent_pass_ready">သင်၏ မှီခိုနေထိုင်ခွင့်စာအုပ်ကို အသင့်ပြင်ထားပေးပါ :)</string>
+    <string name="fin_full_abbreviation">နိုင်ငံခြား အိုင်ဒီကတ်နံပါတ် (FIN)</string>
+    <string name="card_serial_number">ကတ် ဆီရီရယ်နံပါတ်</string>
+    <string name="back_of_card"><u>နောက်သို့</u></string>
+    <string name="have_student_pass_ready">သင်၏ ကျောင်းသားကတ်ကို အသင့်ပြင်ထားပေးပါ :)</string>
+    <string name="have_ltvp_ready">သင်၏ ကာလရှည်နေထိုင်ခွင့်ကတ်ကို အသင့်ပြင်ထားပေးပါ :)</string>
+    <string name="ltvp">နှစ်ရှည်လည်ပတ်မှု ဝင်ခွင့်လက်မှတ်</string>
+    <string name="invalid_fin">FIN မှားနေသည်</string>
+    <string name="check_back_card">ထုတ်ပေးသည့်ရက်စွဲကို သင့်ကတ်၏ <u>ကျောဘက်တွင်</u> စစ်ပါ</string>
+    <string name="or">သို့မဟုတ်</string>
+    <string name="download_sgworkpass">ထုတ်ပေးသည့် ရက်စွဲအတွက် SGWorkPass အက်ပ်ကို ဒေါင်းလုဒ်လုပ်ပါ သို့မဟုတ် QR ကုဒ်ကို စကန်ဖတ်ပါ</string>
+    <string name="use_passport_you_enter_SG_with">စင်္ကာပူသို့ ဝင်ရောက်သည့်အခါ အသုံးပြုမည့် ပတ်စပို့ကို အသုံးပြုပါ :)</string>
+    <string name="nationality">"နိုင်ငံသား "</string>
+    <string name="passport_number">ပတ်စပို့ နံပါတ်</string>
+    <string name="location_permission">တည်နေရာ ခွင့်ပြုချက်</string>
+    <string name="allow_while_using_app">အက်ပ်ကို သုံးနေစဉ်တွင် ခွင့်ပြုပါ</string>
+    <string name="allow">ခွင့်ပြုမည်</string>
+    <string name="note_possible_exposure">COVID-19 ပိုးတွေ့ရှိသူ အတည်ပြုလူနာတစ်ဦးနှင့် သင်က အနီးကပ်ထိတွေ့ဖူးသူဖြစ်ပါက သင့်အား အကြောင်းကြားရန်</string>
+    <string name="bluetooth">ဘလူးတုသ်</string>
+    <string name="battery_optimiser_opt">နောက်ခံတွင် အက်ပ် လုပ်ဆောင်နေပါစေ</string>
+    <string name="bluetooth_data_deleted">သင်၏ အက်ပ်ဘလူးတုသ်ဒေတာများကို ၂၅ ရက်ကြာတိုင်း ကျွန်ုပ်တို့က အလိုအလျောက် ဖျက်ပစ်ပါမည်။</string>
+
+    <string name="prominent_android_needs_location_permission">အက်ပ်သည် နောက်ခံရှိ တည်နေရာဆိုင်ရာဒေတာကို ရယူစုဆောင်းခြင်း မရှိပါ။ Bluetooth အသုံးပြုရန်အလို့ငှာ အက်ပ်အတွက် Andriod တွင် တည်နေရာရှာရန် ခွင့်ပြုချက် လိုအပ်ပါသည်။</string>
+    <string name="prominent_bluetooth_data_deleted">Bluetooth ဒေတာကို ကုဒ်အဖြစ်ပြောင်းလဲပြီး သင့်စက်ပစ္စည်းတွင် သိမ်းဆည်းထားပါသည်။ သက်တမ်း ၂၅ ရက်အထက်ရှိသော ဒေတာကို သင့်စက်ပစ္စည်းမှ အလိုအလျောက်ဖျက်ပစ်မည်ဖြစ်ပြီး အပ်လုဒ်လုပ်သည့်အခါမှသာ ဒေတာကို MOH နှင့် မျှဝေပါသည်။</string>
+
+    <string name="your_app_is_working_now">ယခု သင့်အက်ပ်သည် အလုပ်လုပ်နေပါပြီ။</string>
+    <string name="keep_your_app_open"><b>သင့်အက်ပ်ကို နောက်ခံတွင် ဖွင့်မြဲဖွင့်ထားပြီး</b> ရောဂါဖြစ်ပွားမှု ပြီးဆုံးသည့်တိုင် <b>ဘလူးတုသ်ကို ဖွင့်ထားပါ။</b></string>
+    <string name="hang_in_there">ပြီးတော့ ခက်ခဲတဲ့ ဒီအခြေအနေမှာ ဆက်ကြိုးစားရှင်သန်ပါ။ COVID-19 ကို ကျွန်ုပ်တို့ အတူတကွ နှိမ်နင်းနိုင်မှာပါ။</string>
+    <string name="yes">ဟုတ်ကဲ့ပါ။။</string>
+    <string name="app_updated">သင့်အက်ပ်ကို အပ်ဒိတ်လုပ်ပြီးပါပြီ။</string>
+    <string name="more_languages">နောက်ထပ် <b>ဘာသာစကားများ</b> — বাংলা, 中文, English, हिन्दी, Melayu, தமிழ், ไทย</string>
+    <string name="id_verification"><b>ID ကိုစိစစ်အတည်ပြု</b>, ထို့ကြောင့်သင်သည် COVID-19 နှင့်သက်ဆိုင်သောကိုယ်ရေးကိုယ်တာဆိုင်ရာဆေးဘက်ဆိုင်ရာအချက်အလက်များကိုအက်ပ်မှတဆင့်ရယူနိုင်သည်</string>
+    <string name="start_setup">စနစ်သတ်မှတ်မှု စတင်လိုက်ပါ</string>
+    <string name="change_language">ဘာသာစကား ပြောင်းရန်</string>
+    <string name="your_app_is_active">သင့်အက်ပ်သည် သက်ဝင်နေပါသည်</string>
+    <string name="resuming_life_safely_together">ဘေးကင်းလုံခြုံသော ဘဝကို အတူတကွ ပြန်ရယူကြပါစို့</string>
+    <string name="share_this_app">အတူတကွ ဘေးကင်းစွာ နေပါ။\nဤအက်ပ်ကို မျှဝေလိုက်ပါ။</string>
+    <string name="safeentry_check_in">အစစ်ဆေးခံပြီး ဘေးကင်းလုံခြုံစွာ ဝင်ခြင်း။</string>
+    <string name="pause_tt_title">TraceTogether ကို ခဏရပ်ရန်</string>
+    <string name="pause_contact_tracing"><u>TraceTogether ကို ခဏရပ်ရန်</u></string>
+    <string name="title_home">ပင်မစာမျက်နှာ</string>
+    <string name="title_upload">အပ်လုဒ်တင်ရန်</string>
+    <string name="title_more">နောက်ထပ်</string>
+    <string name="paused_text">ဤကာလအတွင်း COVID-19 နှင့်ထိတွေ့မှုဖြစ်နိုင်သည်ကိုသတိပြုမိရန်ကျွန်ုပ်တို့ကူညီနိုင်မည်မဟုတ်ပါ။ ☹️</string>
+    <string name="pause_tt_30m">မိနစ် ၃၀ ခဏရပ်ပါ</string>
+    <string name="pause_tt_2h">၂ နာရီ ခဏရပ်ပါ</string>
+    <string name="pause_tt_8h">၈ နာရီ ခဏရပ်ပါ</string>
+    <string name="tracetogether_paused">TraceTogether သည် ခဏရပ်သွားပါပြီ</string>
+    <string name="resume_now">ယခု ဆက်လုပ်ဆောင်ရန်</string>
+    <string name="app_not_working">သင့်အက်ပ်သည် အလုပ်လုပ်မနေပါ</string>
+    <string name="please_allow_permissions">ထိတွေ့မှုကို ထိရောက်စွာ ခြေရာခံနိုင်ရန် ယင်းခွင့်ပြုချက်များကို ခွင့်ပြုပေးပါ-</string>
+    <string name="setting_hello">မင်္ဂလာပါ</string>
+    <string name="app_version">အက်ပ် ဗားရှင်း</string>
+    <string name="your_profile">သင့်ပရိုဖိုင်</string>
+    <string name="help">အကူအညီ</string>
+    <string name="report_vulnerability">အားနည်းချက်ကို သတင်းပို့ပါ</string>
+    <string name="mobile_number">လက်ကိုင်ဖုန်းနာပတ်</string>
+    <string name="upload_data">ဒေတာကို အပ်လုဒ်လုပ်ရန်</string>
+    <string name="use_for_moh_disclamer_1">အပ်လုဒ်တင်ကုဒ်တစ်ခုကို COVID-19 လူနာများကိုသာ ပေးပါသည်။</string>
+    <string name="use_for_moh_disclaimer_2">အပ်လုဒ်တင်ကုဒ်တစ်ခုကို MOH မှ သင် ရရှိမထားပါက ဒေတာကို သင်က အပ်လုဒ်တင်ရန် မလိုပါ :)</string>
+    <string name="enter_upload_code">အပ်လုဒ်တင်ကုဒ်ကို ရိုက်ပါ</string>
+    <string name="enter_your_upload_code">သင်၏ အပ်လုဒ်တင်ကုဒ်ကို ရိုက်ပါ</string>
+    <string name="no_upload_code"><u>အပ်လုဒ်တင်ကုဒ် မရှိဘူးလား။</u></string>
+    <string name="upload_agreement">အပ်လုဒ်လုပ်ခြင်းဖြင့် သင်သည် ထိတွေ့မှုခြေရာခံရာတွင်ကူညီရန်အတွက် သင့်အက်ပ်၏ Bluetooth ဒေတာ ၂၅ ရက်စာကို MOH ထံ မျှဝေရန် သဘောတူရာရောက်ပါသည်။</string>
+    <string name="invalid_pin">အပ်လုဒ်တင်ကုဒ် မှားနေသည်</string>
+    <string name="upload_completed">အပ်လုဒ်တင်ပြီးပါပြီ</string>
+    <string name="take_care">ဂရုစိုက်ပါ။ မကြာခင် နေကောင်းပါစေ။</string>
+    <string name="done">ပင်မစာမျက်နှာ ပြန်သွားရန်</string>
+    <string name="service_ok_title">TraceTogether အလုပ်လုပ်နေပါတယ်၊ ပြီးတော့ သင် ဘေးကင်းအောင် စောင့်ရှောက်နေပါတယ် :)</string>
+    <string name="service_ok_body">သင့်အက်ပ် ကောင်းစွာအလုပ်လုပ်နေသည့် အမှတ်အသားတစ်ခုအဖြစ် ဤအသိပေးချက် ရှိနေပါမည်။</string>
+    <string name="service_not_ok_title">အိုး..နိုး..။ TraceTogether က ကောင်းကောင်း အလုပ်မလုပ်တော့ဘူး :(</string>
+    <string name="service_not_ok_body">အက်ပ်ကို ဖွင့်ပါ၊ ယင်းနောက် ၎င်းက သင့်အား ဘေးကင်းအောင် စောင့်ရှောက်နိုင်စေရန် အက်ပ်ခွင့်ပြုချက်များကို ခွင့်ပြုပေးပါ</string>
+    <string name="service_not_ok_action">လျှောက်လွှာကိုယခုစစ်ဆေးပါ</string>
+    <string name="service_paused_body">အက်ပ်က သင့်အား ဘေးကင်းအောင် ဆက်လက်စောင့်ရှောက်ပေးနိုင်စေရန် အက်ပ်ကို ဆက်ဖွင့်ပါ</string>
+    <string name="cancel">ပယ်ဖျက်ရန်</string>
+    <string name="ok">အိုကေ</string>
+    <string name="upload_failed">တင်ယူမှုမအောင်မြင်ပါ ကျေးဇူးပြု၍ နောက်မှထပ်ကြိုးစားပါ</string>
+    <string name="go_to_settings">ဆက်တင်များသို့သွားရန်</string>
+    <string name="back_to_home">ပင်မစာမျက်နှာ ပြန်သွားရန်</string>
+    <string name="change_color"><b>နယူး interface ဒီဇိုင်း</b>- အပြာကနေအနီရောင်အထိল</string>
+    <string name="app_works_in_background">အက်ပ် သည် iOS နောက်ခံတွင်ယခုအလုပ်လုပ်ပါပြီ - ကျွန်ုပ်တို့၏သူငယ်ချင်းများအတွက်ဝမ်းမြောက်ပါ။ သူတို့ကို ပါဝင်​​​ေစပြီးနောက်ကွယ်မှာ သူတို့ အက်ပ် ကိုဖွင့်ထား​ေစပါ။</string>
+    <string name="warning">သတိပေးချက်</string>
+    <string name="rooted">သင့်ဖုန်းထဲ​​ကို မသမာသူများဝင်ရောက် (jailbreak) နိုင်ပါသည်။ အန္တရာယ်ရှိသောသုံးစွဲသူများအားသင်၏ အချက်အလက်များကိုကြည့်ရှုခြင်းကိုတားဆီးရန် Factory Reset ပြုလုပ်ပါ (သို့) jailbreak မပြုသော app ကိုအသုံးပြုပါ။</string>
+    <string name="card_sn">ကတ် ဆီရီရယ်နံပါတ်Bur</string>
+    <string name="scan_and_go">QR စကင်ဖတ်ပြီးသွားပါ။</string>
+    <string name="no_more_form_filling">ပုံစံဖြည့်ရန်မလိုအပ်ပါ။   ထွက်ခွာရန် တခုတည်းကို အသာပုတ်ပါ။</string>
+    <string name="cool">ပြီးပါပြီ။</string>
+    <string name="need_identity">သင်၏သက်သေခံကဒ်ပြားလိုပါသလား။</string>
+    <string name="use_digital_barcode">ဂျစ်တယ်ဘားကုဒ်ကိုသုံးပါ။   ပုံစံဟောင်း​စကင်နာများကဖုန်းများမှဘားကုဒ်များကိုမဖတ်ရနိုင်ကြောင်းသတိပြုပါ။</string>
+    <string name="please_allow_camera">ကျေးဇူးပြု၍ ကင်မရာသုံးခွင့်ပြုပါ။</string>
+    <string name="camera_perm">SafeEntry QR ကုဒ်များကို စကင်ဖတ်ရန်ကင်မရာခွင့်ပြုချက်လိုအပ်သည်။</string>
+    <string name="app_needs_camera">SafeEntry QR ကုဒ်များကိုစကင်ဖတ်ရန် ကင်မရာခွင့်ပြုချက် လိုအပ်သည်။  ကျေးဇူးပြုပြီးကင်မရာခွင့်ပြုချက်ကိုဆက်ဖွင့်ထားပါ။</string>
+    <string name="how_to_use">အသုံးပြုနည်း။</string>
+    <string name="scan_safeen">SafeEntry QR ကုဒ်ကိုစကင်ဖတ်ပါ။</string>
+    <string name="scan_your_digital_barcode">သင့်ရဲ့ဒစ်ဂျစ်တယ်ဘားကုဒ်ကို SafeEntry အဝင်အထွက်တိုင်းတွင် စကင်ဖတ်ပါ။</string>
+    <string name="check_in_to">ဝင်ရန်၊</string>
+    <string name="by_checking_in_you_declare_that">စစ်ဆေးခြင်းအားဖြင့် သင်သည် အောက်ပါအချက်များကို အတည်ပြုပြီးဖြစ်သည်။</string>
+    <string name="you_have_no_close_contact">— လွန်ခဲ့သော ၁၄ ရက်အတွင်း သည်အတည်ပြုပြီးသော COVID-19 အမှုနှင့်သင်အနီးကပ်ဆက်သွယ်မှုမရှိပါ။</string>
+    <string name="you_have_no_quarantine">— သင်သည် Quarantine Order သို့မဟုတ် Stay-Home သတိပေးချက်အောက်တွင်မရှိပါ။</string>
+    <string name="no_fever">— သင့်တွင်ဖျားနာသို့မဟုတ်တုပ်ကွေးကဲ့သို့သောလက္ခဏာများမရှိပါ။</string>
+    <string name="agree_to_the_terms_se">— COVID-19 အဆက်အသွယ်ရှာဖွေခြင်းအတွက်သင်၏အချက်အလက်များကိုစုဆောင်း / အသုံးပြုရန်စည်းကမ်းချက်များကိုသင်သဘောတူပြီး​​ဖြစ်သည်။</string>
+    <string name="terms">စည်းကမ်းချက်မျာ</string>
+    <string name="not_applicable_if_you">* အကယ်၍ သင်ဆေးဝါးကုသမှုဌာနတစ်ခုတွင်ကုသမှုခံယူလိုပါကအသုံးမပြုနိုင်ပါ။</string>
+    <string name="not_applicable_frontline"># COVID-19 ရှေ့တန်းလုပ်သားများနှင့်မသက်ဆိုင်ပါ။</string>
+    <string name="check_in">အဝင်စစ်ဆေးရန်။</string>
+    <string name="check_out">အထွက်စစ်ဆေးရန်။</string>
+    <string name="unable_to_in">အဝင်စစ်ဆေးခြင်းလုပ်၍မရပါ။</string>
+    <string name="network_issue_text">ကွန်ရက်ပြဿနာရှိပုံရသည်။  သင်၏ဆက်သွယ်မှုကိုစစ်ဆေးပြီးထပ်မံကြိုးစားပါ။</string>
+    <string name="unable_to_out">အထွက်စစ်ဆေးခြင်းလုပ်၍မရပါ။</string>
+    <string name="non_se_qr">၎င်းသည် SafeEntry QR ကုဒ်နှင့်မတူပါ။</string>
+    <string name="ensure_you">မှန်ကန်သော SafeEntry QR ကုဒ်ကိုသင်စစ်ဆေးနေကြောင်းသေချာစေပါ။</string>
+    <string name="scan_again">စကင်ပြန်ဖတ်ပါ။</string>
+    <string name="check_your_connection">သင်၏ ချိတ်ဆက်မှုကို စစ်ဆေးပါ</string>
+    <string name="there_seems">မပူပါနှင့်။ အင်တာနက်ချိတ်ဆက်ပြီး ထပ်စမ်းကြည့်ပါ။</string>
+    <string name="retry">ပြန်ကြိုးစားပါ။</string>
+    <string name="temporarily">ယာယီအသုံးပြု၍ မရပါ။</string>
+    <string name="we_re_reall">ကျွန်ုပ်တို့ တကယ်စိတ်မကောင်းပါ။ စစ်ဆေးပေးပါမည်။ နောက်မှ ထပ်စမ်းကြည့်ပါ။</string>
+
+    <string name="required">လိုအပ်သောလယ်ပြင်</string>
+
+    <string name="do_you_have">FIN ကဒ်ပါရှိပါသလား။</string>
+    <string name="fin_card_check_yes">ပါ ပါသည်။</string>
+    <string name="fin_card_check_no">မပါ ပါ။</string>
+
+    <string name="sn_on_fin"><![CDATA[<b>သင်၏ FIN <font color="#F06566">ကဒ်နံပါတ်ကို</font> ရေးထည့်ပါ။</b>]]></string>
+    <string name="enter_the_date_of_application"><![CDATA[<b>သင်၏ FIN ကဒ်အတွက် <font color="#F06566">လျှောက်လွှာတင်သည့်နေ့ကို</font>ထည့်ပါ</b> - သင်၏တူခွင့်ပြုချက်စာ (IPA) သို့မဟုတ် အကြောင်းကြားစာ တွင်တွေ့နိုင်သည်။]]></string>
+    <string name="doa">သင်၏ FIN ကဒ်အတွက်လျှောက်လွှာတင်သည့်နေ့ရက်</string>
+    <string name="doa_with_date_format">လျှောက်လွှာတင်သည့်နေ့ကို\n(DD-MMM-YYYY)</string>
+
+    <string name="for_work_pass"><![CDATA[<b>အလုပ်လုပ်ကိုင်ခွင့်</b> (ရှေ့သို့)]]></string>
+    <string name="for_long_term_pass"><![CDATA[<b>မှီခိုနေထိုင်ခွင့်</b> (နောက်သို့)]]></string>
+
+    <!-- UPDATE DIALOG BOX -->
+    <string name="force_update_dialog_title">သင့်အက်ပ်ကို ယခု အပ်ဒိတ်လုပ်ပါ</string>
+    <string name="force_update_dialog_message">ကျွန်ုပ်တို့သည် အရေးကြီးသည့် အပြောင်းအလဲများ ပြုလုပ်ထားပြီး TraceTogether ကို ဆက်လက်သုံးစွဲရန် သင့်အက်ပ်ကို အပ်ဒိတ်လုပ်ရပါမည်။</string>
+
+    <string name="optional_update_dialog_title">ဗားရှင်းအသစ် ရနိုင်သည်</string>
+    <string name="optional_update_dialog_message">သင့်ကို ပိုမိုကောင်းမွန်စွာ ဝန်ဆောင်မှုပေးနိုင်ရန် TraceTogether ကို အဆင့်မြှင့်ထားသည်။ ယခုပင် အပ်ဒိတ်လုပ်ပါ။</string>
+    <string name="optional_update_dialog_remind_me_again_button_text">ထပ်မံ သတိပေးပါ</string>
+    <string name="update_dialog_update_button_text">အပ်ဒိတ်လုပ်ရန်</string>
+
+    <string name="use_the_pas">စင်္ကာပူသို့ ဝင်ရောက်သည့်အခါ အသုံးပြုမည့် ပတ်စပို့ကို အသုံးပြုပါ။ အောက်ပါအသေးစိတ်အချက်များသည် စင်္ကာပူ လူဝင်မှုကြီးကြပ်ရေးရှိ အချက်များနှင့် ကိုက်ညီရပါမည်။</string>
+    <string name="txt_verified_with_SG_immigration">စင်္ကာပူလူဝင်မှုကြီးကြပ်ရေးမှ စိစစ်ပြီး</string>
+    <string name="tab_back_sg_profile">နောက်သို့ ပြန််နှိပ်ပြီး စင်္ကာပူပရိုဖိုင်ကို ရွေးချယ်ပါ</string>
+    <string name="invalid_passport_format">ပတ်စပို့ပုံစံ မမှန်ကန်ပါ</string>
+
+
+    <!--2.6.x-->
+
+    <!--    passport flow-->
+    <string name="how_long_should_keep_app">ဤအက်ပ်ကို မည်မျှကြာကြာ ဆက်လက်အသုံးပြုသင့်သလဲ။</string>
+
+    <string name="passport_user_overlay_detail_text"><![CDATA[စင်္ကာပူမှ ထွက်ခွာပြီး<u>နောက်</u> <b>14</b> ရက် အထိ ဤအက်ပ်ကို ဆက်လက်အသုံးပြုပါ။<br/><br/>
+    ဤနည်းဖြင့် သင်နှင့် သင်ချစ်ခင်ရသူများကို ပိုမိုကာကွယ်နိုင်ရန် သင်က COVID-19 ရောဂါရှိသူနှင့် အနီးကပ်ထိတွေ့မှု ရှိခဲ့ပါက စင်္ကာပူကျန်းမာရေးဝန်ကြီးဌာနသည် သင့်ကို အကြောင်းကြားပါမည်။<br/><br/>
+  သင် စင်္ကာပူတွင်ရှိနေစဉ် <b>သင့်အက်ပ်ကို နောက်ခံတွင် ဖွင့်ထားပြီး ဘလူးတုသ်ဖွင့်ထား<b>ရန် မမေ့ပါနှင့်။ ဘေးကင်းလုံခြုံစွာ ခရီးသွားပါ။]]></string>
+    <string name="re_registration_title">ဆက်လက်နေ ပြန်လည်မှတ်ပုံတင်မလား</string>
+    <string name="txt_birth">မွေးနေ့</string>
+    <string name="txt_passport_no">ပတ်စပို့နံပါတ်</string>
+    <string name="txt_saved">သိမ်းထားသည်</string>
+    <string name="txt_edit"><u>တည်းဖြတ်ရန်</u></string>
+    <string name="txt_activate_your_app">စင်္ကာပူ လူဝင်မှုကြီးကြပ်ရေးထံမှ ဖြတ်သန်းခွင့်ရပြီးမှသာ သင့်အက်ပ်ကို စဖွင့်ပါ။</string>
+    <string name="txt_activate_app">အက်ပ်ကို စဖွင့်ရန်</string>
+    <string name="txt_visit_safe_travel">စင်္ကာပူသို့ မလာမီ သင်ပြင်ဆင်လာရမည့် အခြားအရာများကိုကြည့်ရန် safetravel.ica.gov.sg သို့ ဝင်ကြည့်ပါ</string>
+    <string name="passport_ica_error_title">စင်္ကာပူ လူဝင်မှုကြီးကြပ်ရေးထံတွင် သင်၏ ပတ်စပို့အသေးစိတ် မရှိပါ</string>
+    <string name="passport_ica_error_message">စင်္ကာပူလူဝင်မှုကြီးကြပ်ရေးထံမှ ဖြတ်သန်းခွင့်ရပြီးမှသာ သင့်အက်ပ်ကို စဖွင့်နိုင်သည်။ ထို့အပြင် အက်ပ်အတွင်းသို့ မှန်ကန်သော အသေးစိတ်အချက်များ ထည့်ထားခြင်း ရှိ၊ မရှိ စစ်ဆေးပါ။</string>
+    <string name="passport_fin_holder_title">သင့် FIN ဖြင့် ပြန်လည်မှတ်ပုံတင်ပါ</string>
+    <string name="passport_fin_holder_message">ဤနည်းဖြင့် MOH သည် သင့်ထံ COVID စစ်ဆေးမှုအဖြေများကို တိကျစွာ ပို့နိုင်သည်။</string>
+    <string name="passport_fin_personal_details_safe">သင်၏ ကိုယ်ရေးအသေးစိတ်အချက်များကို အခြားစက်များနှင့် လုံးဝ မမျှဝေပါ</string>
+    <string name="invalid_user_message">မပူပါနှင့်၊ သင့်အမှားမဟုတ်ပါ။ သင်၏ သုံးစွဲသူ အသေးစိတ်အချက်များကို စီမံဆောင်ရွက်စဉ် စနစ်တွင် အမှားတစ်ခု ဖြစ်ပေါ်သည်။ ဤဝန်ဆောင်မှုကို ဖွင့်ရန် ပြန်လည်မှတ်ပုံတင်ပါ။</string>
+    <string name="re_register">ပြန်လည် မှတ်ပုံတင်ရန်</string>
+    <string name="generic_unavailable">"ယာယီအသုံးပြု၍ မရပါ။. ၎င်းကို ပြုပြင်ရန် ကျွန်ုပ်တို့ အစွမ်းကုန် ကြိုးစားနေပါသည် 💪🏽"</string>
+    <string name="you_re_okay">သင်အဆင်ပြေပါတယ်။</string>
+    <string name="records_from_the_last_14_days">လွန်ခဲ့သော ၁၄ ရက်ကသင်၏ TraceTogether နှင့် SafeEntry မှတ်တမ်းများအားလုံးကိုအခြေခံသည်။</string>
+    <string name="see_details">အသေးစိတ်ကြည့်ပါ။</string>
+    <string name="all_records">မှတ်တမ်းများအားလုံး</string>
+    <string name="possible_exposure">ဖြစ်နိုင်သောထိတွေ့မှုများ။</string>
+    <string name="not_visited_by_covid_19_cases">သင်သည် COVID-19 ဖြစ်ပွားမှု ရှိသည့်နေရာများတွင်မရှိပါ။</string>
+    <string name="how_are_my_possible_exposures_determined">ကွျန်ုပ်၏အဖြစ်နိုင်ချေထိတွေ့မှုများကို ဘယ်လိုဆုံးဖြတ်ကြပါသလဲ။</string>
+    <string name="you_were_at"><![CDATA[သင်သည် COVID-19 ဖြစ်ပွားသူများလည်ပတ်ခဲ့သည့်နေရာများသို့ရောက်ခဲ့သည်။.  <font color="#0070E0"><u><b>အသေးစိတ်ကြည့်ပါ။</b></u> </font>]]></string>
+    <string name="monitor_your_health">ကြိုတင်ကာကွယ်မှုအနေဖြင့်သင်၏ကျန်းမာရေးကိုသွားရောက်လည်ပတ်သည့်နေ့မှ ၁၄ ရက်အထိစောင့်ကြည့်ပါ။ အကယ်၍ သင့်တွင်အဖျားတက်ခြင်းသို့မဟုတ်အသက်ရှူလမ်းကြောင်းဆိုင်ရာရောဂါလက္ခဏာများဖြစ်ပေါ်ပါကဆရာဝန်နှင့်ချက်ချင်းဆက်သွယ်ပြီးဤထိတွေ့မှုကိုဖော်ပြပါ။</string>
+    <string name="check_for_symptoms"><u>ရောဂါလက္ခဏာများစစ်ဆေးပါ</u></string>
+    <string name="your_possible_exposures">သင့်၌ဖြစ်နိုင်သောထိတွေ့မှုများ။</string>
+    <string name="a_covid_19_case_visited">COVID-19 ဖြစ်ပွားသူ လည်ပတ်ခဲ့သည် %s:</string>
+    <string name="locations_matched_by_postal_code">တည်နေရာများကို စာပို့ကုဒ်ဖြင့် တိုက်ဆိုင်စစ်ဆေးသည်။</string>
+    <string name="no_check_out">အထွက် မစစ်ဆေး</string>
+    <string name="place_visited_by_a_covid_19_case">သင်သည် COVID-19 ဖြစ်ပွားသူ လည်ပတ်ခဲ့သည့်နေရာသို့ရောက်ခဲ့သည်။</string>
+    <string name="based_on_al"><![CDATA[လွန်ခဲ့သော ၁၄ ရက်ကသင်၏ TraceTogether နှင့် SafeEntry မှတ်တမ်းများအားလုံးကိုအခြေခံသည်။ <font color="#0070E0"><u><b>အသေးစိတ်ကြည့်ပါ။</b></u> </font>]]></string>
+    <string name="possible_ex">ဖြစ်နိုင်သောထိတွေ့မှုများ။</string>
+    <string name="title_history">ရာဇဝင်</string>
+    <string name="qr_check_in_button">QR ကို စကန်ဖတ်ရန်</string>
+    <string name="fav_check_in_button">အကြိုက်ဆုံးများ</string>
+    <string name="group_check_in_button">အုပ်စု</string>
+    <string name="total_exchanges_today">ယနေ့ စုစုပေါင်းဖလှယ်မှု %s ကြိမ်</string>
+
+    <!--    More-->
+    <string name="title_account">စာရင်း</string>
+    <string name="manage_family_members">မိသားစုဝင်များကို စီမံရန်</string>
+    <string name="title_help_feedback">အကူအညီ နှင့် တုံ့ပြန်ချက်</string>
+    <string name="submit_error_logs">ချွတ်ယွင်းချက်မှတ်တမ်းများ ပို့ရန်</string>
+
+    <!--    error logs-->
+    <string name="txt_submit_error_info">တစ်ခါတစ်ရံ ကျွန်ုပ်တို့ ပုံတူပွားလုပ်ဆောင်၍ မရသော ပြဿနာများကို အက်ပ်တွင် အသုံးပြုသူများ ကြုံရတတ်သည်။ ထိုသို့ဖြစ်ပါက အသုံးပြုသူများသည် ထိုပြဿနာကို ကျွန်ုပ်တို့ နားလည်စေရန် ချွတ်ယွင်းချက်မှတ်တမ်းများ ပို့နိုင်သည်။</string>
+    <string name="txt_error_logs_successfully_shared">ချွတ်ယွင်းချက်မှတ်တမ်းများကို မျှဝေပြီးပါပြီ</string>
+    <string name="txt_thank_you_update_your_app_regularly">သင့်အကူအညီအတွက် ျေးဇူးတင်ပါသည်။ နောက်ဆုံးရပြုပြင်ထားရှိမှုများ ရယူရန် သင့်အက်ပ်ကို ပုံမှန် အပ်ဒိတ်လုပ်ပေးပါ 😊</string>
+
+    <string name="got_it">ပြီးပါပြီ။</string>
+    <string name="bluetooth_exchanges">Bluetooth ဖလှယ်မှုများ</string>
+    <string name="your_history"><![CDATA[သင်၏ရာဇဝင်က သင်၏ <b>TraceTogether Bluetooth ကိုအခြားအသုံးပြုသူများနှင့်ဖလှယ်မှုနှင့်</b> TraceTogether အက်ပ်ကို သုံး၍ <b>SafeEntry check-in/out</b> လုပ်ခဲ့သမျှကိုမဆို ပြသပါသည်။<br/><br/>ဤမှတ်တမ်းများသည်သင်ကူးစက်သည့်ကာလအတွင်း COVID-19 လူနာများအနီးတွင်ရှိပါကသင့်အားအကြောင်းကြားရန်ကူညီသည်။<br/><br/>သက်တမ်း ၂၅ ရက်အထက် ကြာမြင့်နေပြီဖြစ်သော ဒေတာသည် အလိုအလျောက်ပျက်သွားမည်ဖြစ်သည်။]]></string>
+    <string name="past_x_days">အတိတ် 25 ရက်ပေါင်း</string>
+    <string name="no_records_yet">မှတ်တမ်း မရှိသေးပါ။</string>
+    <string name="check_out_now"><u>ယခု ထွက်ရန်</u></string>
+    <string name="successful_check_out">ထွက်ပြီးပါပြီ။</string>
+
+    <!--Safe Entry-->
+    <string name="visit_place_often">နေရာတစ်နေရာကို မကြာခဏ သွားလည်ပါသလား။</string>
+    <string name="tap_on_star_text">၎င်းကို သင့်အကြိုက်ဆုံးများတွင် ပေါင်းထည့်ရန် ကြယ်ပွင့်ကိုနှိပ်ပါ။ နောင်အခါ သွားရောက်မှုများတွင် QR ကုဒ်ကို ကျော်နိုင်သည်။</string>
+    <string name="awesome">အလွန်ကောင်းပါသည်။</string>
+
+    <string name="got_it_exclamation_mark">ရပါပြီ။</string>
+
+    <string name="add_this_location_to_favourites">အကြိုက်ဆုံးများတွင်<u>ဤနေရာကို သိမ်းရန်</u></string>
+    <string name="check_in_fav_added">ဤနေရာသည် သင်၏ အကြိုက်ဆုံးများတွင် ပါဝင်သည်</string>
+    <string name="saved_to_favourites">အကြိုက်ဆုံးများသို့ သိမ်းထားသည်။</string>
+    <string name="removed_from_favourites">အကြိုက်ဆုံးများမှ ဖယ်ရှားထားသည်။</string>
+
+    <string name="last_qr_check_in">နောက်ဆုံး အဝင်စစ်ဆေးခြင်း၊</string>
+    <string name="view_pass"><u>Pass ကိုကြည့်ပါ။</u></string> <!--Need underline as hyperlink -->
+
+    <!--For SE Widget-->
+
+    <string name="no_favourites_yet">အကြိုက်ဆုံး မရှိသေးပါ</string>
+    <string name="no_favourites_yet_text">နေရာတစ်နေရာသို့ မကြာခဏသွားပါသလား။ ကြယ်ပွင့်ကို နှိပ်ခြင်းဖြင့် ၎င်းကို သင့်အကြိုက်ဆုံးများတွင် သိမ်းပါ။</string>
+    <string name="see_my_history">ကျွန်ုပ်၏ မှတ်တမ်းကို ကြည့်ရန်</string>
+
+    <string name="by_checking_in_you_agree_with_terms">ဝင်ရောက်ခြင်းဖြင့် သင်သည် စည်းမျဉ်းများကို သဘောတူပါသည်။</string>
+    <string name="your_favourite_places_text">သင်၏ အကြိုက်ဆုံး နေရာများ</string>
+
+    <string name="no_results_found">ရလဒ်များ ရှာမတွေ့ပါ</string>
+    <string name="location_not_saved_to_favourites">သင် ရှာနေသည့် နေရာကို သင့်အကြိုက်ဆုံးများတွင် သိမ်းဆည်းမထားပါ။</string>
+
+    <string name="add_family_members">မိသားစုဝင်များ ထည့်ရန်</string>
+    <string name="add_your_family_members">သင်၏ မိသားစုဝင်များ ထည့်ပါ</string>
+    <string name="add_your_family_members_text">မိုဘိုင်းစက် မကိုင်ဆောင်သည့် သင့်မိသားစုဝင်များအတွက် SafeEntry ဝင်ရောက်မှု ပြုလုပ်ပါ။</string>
+
+    <string name="their_nric">၎င်း၏ NRIC/FIN နံပါတ်ကို ဖော်ပြပါ။</string>
+    <string name="add_nickname">ဤမိသားစုဝင်အတွက် သီးသန့်အမည် ထည့်ပါ</string>
+
+    <string name="your_family_members">သင်၏ မိသားစုဝင်များ</string>
+    <string name="you_can_check_in_text">ဤမိသားစုဝင်များကိုယ်စား သင်က ဝင်ရောက်နိုင်သည်</string>
+    <string name="add_another_person">+ နောက်တစ်ယောက် ထည့်ရန်</string>
+
+    <string name="who_are_you_checking_in_with">သင်နှင့်အတူ ဝင်ရောက်သူကို ဖော်ပြပါ။</string>
+    <string name="select_all">အားလုံး ရွေးချယ်ရန်</string>
+
+    <string name="invalid_nric_fin">NRIC/FIN မမှန်ကန်ပါ။ မှန်ကန်သော NRIC/FIN ထည့်ပါ။</string>
+    <string name="already_exists">ဤ NRIC/FIN ကို ထည့်ပြီးဖြစ်သည်။</string>
+
+    <string name="se_unavailable">SafeEntry QR ယာယီအသုံးပြု၍ မရပါ။</string>
+    <string name="consider_us">စစ်ဆေးရန်အခြားနည်းလမ်းများကိုအသုံးပြုရန်စဉ်းစားပါ။</string>
+
+    <string name="group_check_in_error_title">သည်းခံပါ။ ဤနေရာတွင် အုပ်စုလိုက် ဝင်ရောက်မှုကို ခွင့်မပြုပါ။</string>
+    <string name="group_check_in_error_message">သင်၏ မိသားစုသည် ကိုယ်ပိုင် TraceTogether စက်ဖြင့် ဝင်ရောက်ရန်လိုအပ်သည်။ သို့မှသာ ဧည့်သည်အားလုံးတွင် ဖွင့်ထားသော TraceTogether ရှိပြီး လူထူထပ်သော နေရာများတွင် သင်တို့ကို ပိုမိုကာကွယ်ပေးနိုင်မည်ဖြစ်သည်။</string>
+    <string name="group_check_in_ok_text">ကောင်းပါပြီ၊ ကျွန်ုပ်အတွက်သာ ဝင်ရောက်ပါ</string>
+    <string name="txt_others">အခြား</string>
+
+    <string name="more_info"><u>နောက်ထပ်အချက်အလက်</u></string>
+    <string name="remove">ဖယ်ရှားရန်</string>
+    <string name="please_try_again_later">နောက်မှထပ်စမ်းကြည့်ပါ</string>
+
+    <string name="agree">သဘောတူသည်</string>
+    <string name="remind_me_again"><u>ထပ်မံသတိပေးပါ</u></string>
+    <string name="search_from_list_below">အောက်ပါစာရင်းမှ ရှာဖွေပါ</string>
+    <string name="pass_not_supported">(နိုင်ငံကူးလက်မှတ်နံပါတ်ကို မပံ့ပိုးပါ)</string>
+    <string name="passport_user_message"><![CDATA[အဆိုပါလုပ်ဆောင်ချက်ကို စင်ကာပူနိုင်ငံတွင်သာ လိုအပ်ပါသည်။ <b><u>အကယ်၍ သင်သည် လက်ရှိတွင် စင်ကာပူနိုင်ငံ၌ရှိနေပါက</u></b>, အဆိုပါလုပ်ဆောင်ချက်ကို အသုံးပြုနိုင်စေရန် ပြန်လည်မှတ်ပုံတင်ပါ။]]></string>
+    <string name="passport_user_re_registration_detail_text"><![CDATA[<b>သင်သည် လက်ရှိတွင် စင်ကာပူနိုင်ငံ၌ ရှိနေမှသာ ဆက်လက်လုပ်ဆောင်ပါ။</b> ဆက်လက်မှတ်ပုံတင်လိုက်လျှင် ကိုယ်ရေးအကျဉ်းအသစ်တစ်ခုကို ဖန်တီးမည်ဖြစ်ပြီး သင်၏ယခင်အက်ပ်အချက်အလက်များ ပျက်သွားမည်ဖြစ်သည်။]]></string>
+    <string name="txt_next_step"><![CDATA[<b>နောက်အဆင့်- စင်ကာပူနိုင်ငံ၏ လူဝင်မှုကြီးကြပ်ရေးကို ဖြတ်သန်းပါ၊ <u>ထို့နောက်</u> သင့်အက်ပ်ကို စဖွင့်ပါ 🤗🇸🇬</b>]]></string>
+    <string name="oversea_number_disclaimer_text">မှတ်ချက်- ဤအက်ပ်ကို စင်ကာပူတွင် အသုံးပြုရန်သာ ရည်ရွယ်ပါသည်။ အချို့သော နိုင်ငံရပ်ခြားကွန်ရက်များနှင့် ဖုန်းနံပါတ်များသည် အတည်ပြုစစ်ဆေးရန် တစ်ခါသုံးပင်နံပါတ် (OTP) ကို ရရှိခြင်း မရှိနိုင်ပါ။ ထိုကဲ့သို့သော အခြေအနေများ၌ ပြည်တွင်းသုံး SIM ကတ်တစ်ခုကို အသုံးပြု၍ သင့်အက်ပ်ကို စင်ကာပူတွင် သတ်မှတ်ထားရှိပါ။</string>
+    <string name="how_it_works_2_text_content_3">ထိတွေ့မှုကို ခြေရာခံရန်အတွက်သာ ဒေတာကို အသုံးပြုနိုင်ပါသည်။ ခြွင်းချက်အားဖြင့် ဆိုးရွားသော ပြစ်မှုများအား စုံစမ်းစစ်ဆေးရန် လိုအပ်သည့်အခါတွင်လည်း ဒေတာကို အသုံးပြုပါသည်။ အကယ်၍ သင့်စက်ပစ္စည်းမှ ထိတွေ့မှုခြေရာခံဒေတာကို တရားဥပဒေစိုးမိုးရေးအေဂျင်စီတစ်ခုမှ လိုအပ်ပါက သင့်အား အကြောင်းကြားမည်ဖြစ်ပြီး ဒေတာအား အပ်လုပ်လုပ်နည်းကို လမ်းညွှန်ပေးပါမည်။ အသေးစိတ်သိရှိနိုင်စေရန်အတွက် ကျွန်ုပ်တို့၏  ကိုယ်ရေးအချက်အလက်မူဝါဒကို ကြည့်ရှုပါ။</string>
+    <!--for hyperlinking-->
+    <string name="serious_offences">ဆိုးရွားသော ပြစ်မှုမျ</string>
+    <string name="privacy_safeguards">ကိုယ်ရေးအချက်အလက်မူဝါဒ</string>
+
+    <string name="error_tries">စမ်းကြည့်ရာတွင် အဆင်မပြေသည့် အကြိမ်ရေ များလွန်းသည်။</string>
+    <string name="favourite_check_in_error_message">ထပ်စမ်းကြည့်ပါ သို့မဟုတ် SafeEntry QR ကုဒ်ကို စကင်န်ဖတ်ခြင်းဖြင့် စာရင်းပေးပါ။</string>
+    <string name="favourite_check_in_error_title">အိုး၊ ဤနေရာသည် ၎င်း၏ SafeEntry အချက်အလက်များကို အပ်ဒိတ်လုပ်ထားသည်။</string>
+    <string name="upload_cpc">ဆက်လက်လုပ်ဆောင်ခြင်းဖြင့် ရာဇဝတ်မှုစုံစမ်းစစ်ဆေးရေးများနှင့် တရားစွဲဆိုခြင်းများတွင် အထောက်အကူဖြစ်စေရန် သင့်အက်ပ်၏ Bluetooth ဒေတာကို အပ်လုဒ်လုပ်ပါမည်။</string>
+    <string name="stay_safe">ကျေးဇူးတင်ပါသည်။ ဘေးကင်းပါစေ။</string>
+    <string name="unselect_all">ရွေးချယ်ထားခြင်းမှ အားလုံးကို ဖယ်ထုတ်ရန်</string>
+    <string name="user_you">%s (သင်)</string>
+    <string name="trace_together_devices_nearby">အနီးအနားရှိ စက်ပစ္စည်း %s ခု</string>
+    <string name="min_ago">လွန်ခဲ့သော %s မိနစ်က</string>
+
+    <string name="your_covid">သင်၏ COVID ကျန်းမာရေးအခြေအနေ</string>
+    <string name="vaccinated">ကာကွယ်ဆေးထိုးပြီး</string>
+    <string name="not_vaccina">ကာကွယ်ဆေးမထိုးရသေးပါ</string>
+    <string name="no_exposure_alerts">ထိတွေ့မှု သတိပေးချက်မရှိ</string>
+    <string name="coming_soon">မကြာမီ လာပါမည်</string>
+    <string name="covid_test_result">COVID စစ်ဆေးမှုရလဒ်</string>
+    <string name="count_possible_exposure">ဖြစ်နိုင်ခြေရှိသော ထိတွေ့မှု %s ကြိမ်</string>
+    <string name="count_possible_exposures">ဖြစ်နိုင်ခြေရှိသော ထိတွေ့မှု %s ကြိမ်များ</string>
+    <string name="covid_health_status">COVID ကျန်းမာရေးအခြေအနေ</string>
+    <string name="vaccination_status">ကာကွယ်ဆေးထိုးခြင်းအခြေအနေ</string>
+    <string name="possible_exposure_details">COVID-19 ကူးစက်ခံရသူတစ်ဦး သွားရောက်ခဲ့သောနေရာတစ်ခုတွင် သင်ရှိနေခဲ့သည်။ ကာကွယ်ဆေးသည် ၁၀၀% ကာကွယ်မှုမပေးသောကြောင့် ကာကွယ်ဆေးထိုးပြီးနောက်တွင် သင့်ကျန်းမာရေးကို စောင့်ကြည့်၊ စစ်ဆေးပါ။</string>
+
+</resources>

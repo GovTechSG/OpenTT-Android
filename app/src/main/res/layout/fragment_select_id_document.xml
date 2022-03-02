@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/top_section"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="24dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_main_title"
+                    style="@style/OnboardingTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/select_your_profile"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?actionBarItemBackground"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_main_title"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_qnmark" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/otp_auto_filled_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/green_bg"
+                    app:cardCornerRadius="4dp"
+                    app:cardPreventCornerOverlap="true"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="16dp">
+
+                        <TextView
+                            android:id="@+id/otpAutoFilled"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/otp_auto_filled"
+                            android:textColor="@color/normal_text"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintHorizontal_bias="0"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toLeftOf="@id/close"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/close"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="?attr/selectableItemBackground"
+                            android:gravity="center"
+                            android:paddingLeft="16dp"
+                            android:paddingTop="8dp"
+                            android:paddingRight="16dp"
+                            android:paddingBottom="8dp"
+                            android:text="@string/close_uppercase"
+                            android:textColor="@color/normal_text"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <!--profile selection section-->
+                <LinearLayout
+                    android:id="@+id/profile_selection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:orientation="vertical"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv_main_title">
+
+                    <sg.gov.tech.bluetrace.onboarding.newOnboard.register.DocumentSelectorView
+                        android:id="@+id/select_nric"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:backgroundNeutral="@color/white"
+                        app:backgroundSelected="@color/new_accent"
+                        app:backgroundUnselected="@color/unselected_accent"
+                        app:prepareImage="@drawable/pink_blue_nric"
+                        app:prepareText="@string/have_nric_ready"
+                        app:stringMsgNeutral="@string/profile_nric"
+                        app:stringMsgSelected="@string/profile_nric"
+                        app:stringMsgUnselected="@string/profile_nric"
+                        app:textColorNeutral="@color/normal_text"
+                        app:textColorSelected="@color/white"
+                        app:textColorUnselected="@color/unselected_text" />
+
+                    <sg.gov.tech.bluetrace.onboarding.newOnboard.register.DocumentSelectorView
+                        android:id="@+id/select_fin_work"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        app:backgroundNeutral="@color/white"
+                        app:backgroundSelected="@color/new_accent"
+                        app:backgroundUnselected="@color/unselected_accent"
+                        app:prepareImage="@drawable/green_passes"
+                        app:prepareText="@string/have_work_pass_ready"
+                        app:stringMsgNeutral="@string/profile_fin_work"
+                        app:stringMsgSelected="@string/profile_fin_work"
+                        app:stringMsgUnselected="@string/profile_fin_work"
+                        app:textColorNeutral="@color/normal_text"
+                        app:textColorSelected="@color/white"
+                        app:textColorUnselected="@color/unselected_text" />
+
+                    <sg.gov.tech.bluetrace.onboarding.newOnboard.register.DocumentSelectorView
+                        android:id="@+id/select_fin_dependent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        app:backgroundNeutral="@color/white"
+                        app:backgroundSelected="@color/new_accent"
+                        app:backgroundUnselected="@color/unselected_accent"
+                        app:prepareImage="@drawable/green_passes"
+                        app:prepareText="@string/have_dependent_pass_ready"
+                        app:stringMsgNeutral="@string/profile_fin_dependent"
+                        app:stringMsgSelected="@string/profile_fin_dependent"
+                        app:stringMsgUnselected="@string/profile_fin_dependent"
+                        app:textColorNeutral="@color/normal_text"
+                        app:textColorSelected="@color/white"
+                        app:textColorUnselected="@color/unselected_text" />
+
+                    <sg.gov.tech.bluetrace.onboarding.newOnboard.register.DocumentSelectorView
+                        android:id="@+id/select_fin_student"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        app:backgroundNeutral="@color/white"
+                        app:backgroundSelected="@color/new_accent"
+                        app:backgroundUnselected="@color/unselected_accent"
+                        app:prepareImage="@drawable/green_passes"
+                        app:prepareText="@string/have_student_pass_ready"
+                        app:stringMsgNeutral="@string/profile_fin_student"
+                        app:stringMsgSelected="@string/profile_fin_student"
+                        app:stringMsgUnselected="@string/profile_fin_student"
+                        app:textColorNeutral="@color/normal_text"
+                        app:textColorSelected="@color/white"
+                        app:textColorUnselected="@color/unselected_text" />
+
+                    <sg.gov.tech.bluetrace.onboarding.newOnboard.register.DocumentSelectorView
+                        android:id="@+id/select_fin_ltvp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        app:backgroundNeutral="@color/white"
+                        app:backgroundSelected="@color/new_accent"
+                        app:backgroundUnselected="@color/unselected_accent"
+                        app:prepareImage="@drawable/green_passes"
+                        app:prepareText="@string/have_ltvp_ready"
+                        app:stringMsgNeutral="@string/profile_fin_ltvp"
+                        app:stringMsgSelected="@string/profile_fin_ltvp"
+                        app:stringMsgUnselected="@string/profile_fin_ltvp"
+                        app:textColorNeutral="@color/normal_text"
+                        app:textColorSelected="@color/white"
+                        app:textColorUnselected="@color/unselected_text" />
+
+                    <sg.gov.tech.bluetrace.onboarding.newOnboard.register.DocumentSelectorView
+                        android:id="@+id/select_passport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        app:backgroundNeutral="@color/white"
+                        app:backgroundSelected="@color/new_accent"
+                        app:backgroundUnselected="@color/unselected_accent"
+                        app:prepareImage="@drawable/img_passport"
+                        app:prepareText="@string/use_passport_you_enter_SG_with"
+                        app:stringMsgNeutral="@string/profile_visitor"
+                        app:stringMsgSelected="@string/profile_visitor"
+                        app:stringMsgUnselected="@string/profile_visitor"
+                        app:stringSubMsgNeutral="@string/txt_verified_with_SG_immigration"
+                        app:stringSubMsgSelected="@string/txt_verified_with_SG_immigration"
+                        app:stringSubMsgUnselected="@string/txt_verified_with_SG_immigration"
+                        app:subTextVisibility="true"
+                        app:textColorNeutral="@color/normal_text"
+                        app:textColorSelected="@color/white"
+                        app:textColorUnselected="@color/unselected_text" />
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Space
+                android:id="@+id/space"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toTopOf="@id/btn_next"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/top_section" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_next"
+                style="@style/ActionButton.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="@string/proceed"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

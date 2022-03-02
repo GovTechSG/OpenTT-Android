@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorAccent">#FF6565</color>
+
+    <color name="selected_accent">#E57373</color>
+
+    <color name="notification_tint">#333333</color>
+
+    <color name="dark">#17363d</color>
+    <color name="lighter">#3d5c63</color>
+    <color name="off_white">#F5F2D0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_light">#33FFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+
+    <color name="primary_blue_1">#0030A1</color>
+
+    <color name="secondary_blue_6">#0070E0</color>
+
+    <color name="grey_1">#202020</color>
+    <color name="grey_2">#3C4043</color>
+    <color name="grey_3">#5F6368</color>
+    <color name="grey_4">#686868</color>
+    <color name="grey_5">#808080</color>
+    <color name="grey_8">#C8C8C8</color>
+    <color name="grey_9">#E0E0E0</color>
+    <color name="grey_10">#ECECEC</color>
+    <color name="grey_12">#DADCE0</color>
+    <color name="grey_13">#333333</color>
+    <color name="grey_14">#4F4F4F</color>
+    <color name="icon_tint">#828282</color>
+    <color name="grey_15">#FBFBFB</color>
+
+    <color name="diver_line">#F2F2F2</color>
+
+    <color name="error">#CC0000</color>
+    <color name="setting_hello">#333333</color>
+    <color name="green_checkin">#1EAF71</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="light_yellow">#FFF5DC</color>
+
+
+    <color name="blue_text">#2F80ED</color>
+    <color name="more_footer">#3C7CA4</color>
+
+    <color name="geraldine">#E57373</color>
+    <color name="pink">#FFF0F0</color>
+
+    <color name="new_accent">#FF6565</color>
+    <color name="color_accent_dark">#F44336</color>
+    <color name="unselected_accent">#F2F2F2</color>
+    <color name="unselected_text">#BDBDBD</color>
+    <color name="normal_text">#333333</color>
+    <color name="green_text">#218D86</color>
+
+    <color name="hyperlink_blue">#3784EA</color>
+    <color name="default_pink">#F44336</color>
+
+    <color name="resend_bg">#f4f8fe</color>
+    <color name="resend_blue">#2e81ed</color>
+
+    <color name="green_bg">#84CFC8</color>
+
+    <color name="menu_text">#4F4F4F</color>
+
+    <color name="scanner_line">#00ceff</color>
+
+    <color name="showcase">#D8000000</color>
+
+    <color name="scanner_white">#33000000</color>
+    <color name="close_box_bg">#EFF9F9</color>
+
+    <color name="announcement">#930B17</color>
+
+    <color name="bt_text">#4F4F4F</color>
+    <color name="bt_time_lapse">#828282</color>
+
+    <color name="home_screen_check_in_box">#1A0070E0</color>
+    <color name="share_app_border_color">#BDBDBD</color>
+    <color name="dark_gray">#585858</color>
+    <color name="faded_white">#fbf9f9</color>
+    <color name="color_semi_transparent">#44000000</color>
+
+    <color name="pp_profile_blocked_gray_bg">#F2F2F2</color>
+    <!--For Hyperlink-->
+    <color name="text_color_highlight">#2668E9</color>
+    <color name="text_color_link">#86B0F4</color>
+
+</resources>

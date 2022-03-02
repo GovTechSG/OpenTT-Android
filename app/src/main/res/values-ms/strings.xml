@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tracetogether_fancy"><![CDATA[<font color="#F06566">Trace</font><font color="#C93E3C">Together</font>]]></string>
+    <string name="to_sg_with_love">Kepada warga Singapura tersayang</string>
+    <string name="top_to_open">Tekan surat untuk buka</string>
+    <string name="next">Seterusnya</string>
+    <string name="back">Kembali</string>
+    <string name="help_recall"><b>Membantu anda mengingati</b> tempat yang dijejaki dan individu yang anda temui beberapa minggu lepas.</string>
+    <string name="notifies_you"><b>Memberitahu anda dengan segera</b> jika anda terdedah kepada COVID-19 untuk melindungi anda dan orang tersayang</string>
+    <string name="how_it_works_2_text_title">Data digunakan bila perlu sahaja</string>
+    <string name="how_it_works_2_text_content">Data jarak dekat Bluetooth anda <b>disimpan dengan selamat pada peranti anda.</b> Jika anda diuji positif untuk COVID-19, Kementerian Kesihatan (MOH) akan menghubungi anda untuk memuatnaikkan data bagi tujuan pengesanan hubungan*.</string>
+    <string name="lets_go">Jom mulakan</string>
+    <string name="enter_your_number">Masukkan nombor telefon anda</string>
+    <string name="moh_use_number">Nombor ini untuk MOH hubungi anda jika anda berkemungkinan terdedah pada COVID-19.</string>
+    <string name="get_otp">DAPATKAN OTP</string>
+    <string name="verify_your_mobile_number">Sahkan nombor telefon anda</string>
+    <string name="otp_sent">Masukkan pin laluan-guna-sekali (OTP) yang dihantar ke %s</string>
+    <string name="wrong_number"><u>Nombor yang salah?</u></string>
+    <string name="resend">Hantar semula</string>
+    <string name="verify">SAHKAN</string>
+    <string name="invalid_otp">Pin OTP salah</string>
+    <string name="select_your_profile">Pilih profil anda</string>
+    <string name="profile_nric">Warga Singapura/PR (semua usia)</string>
+    <string name="profile_fin_work">FIN — Pas Kerja</string>
+    <string name="profile_fin_dependent">FIN — Pas Tanggungan</string>
+    <string name="profile_fin_student">FIN — Pas Pelajar</string>
+    <string name="profile_fin_ltvp">FIN — Pas Lawatan Jangka Panjang (LTVP)</string>
+    <string name="profile_visitor">Melawat Singapura</string>
+    <string name="proceed">TERUSKAN</string>
+    <string name="otp_auto_filled">OTP anda telah diisikan</string>
+    <string name="close_uppercase">TUTUP</string>
+    <string name="why_need_detail">Mengapa perlu butiran saya?</string>
+    <string name="why_need_detail_desc">MOH dapat <b>menghubungi individu yang betul</b> mengikut nombor pengenalan unik untuk memberikan nasihat kesihatan penting tentang COVID-19.</string>
+    <string name="i_see_got_it">OK. SAYA FAHAM!</string>
+    <string name="have_nric_ready">Sila siapkan NRIC atau No. Sijil Kelahiran anda :)</string>
+    <string name="nric_profile_title">Butiran NRIC anda</string>
+    <string name="wp_profile_title">Butiran FIN-WP anda</string>
+    <string name="dp_profile_title">Butiran FIN-DP anda</string>
+    <string name="stp_profile_title">Butiran FIN-STP anda</string>
+    <string name="ltvp_profile_title">Butiran FIN-LTVP anda</string>
+    <string name="passport_profile_title">Butiran Pasport anda</string>
+    <string name="name">Nama</string>
+    <string name="nric_birth_cert_no_title">NRIC / No. Sijil Kelahiran</string>
+    <string name="date_of_birth">Tarikh Lahir</string>
+    <string name="date_of_issue">Tarikh Dikeluarkan</string>
+    <string name="nric_date_of_issue">NRIC Tarikh Dikeluarkan</string>
+    <string name="fin_date_of_issue">FIN Tarikh Dikeluarkan</string>
+
+    <string name="dob_passport">Tarikh Lahir (seperti di Pasport)</string>
+    <string name="how_to_find"><u>Bagaimana untuk mencari?</u></string>
+    <string name="moh_use_info">Butiran yang anda berikan adalah betul. Anda setuju dengan Syarat Penggunaan, Kenyataan Privasi kami, dan membenarkan MOH menghubungi anda untuk memuatnaikkan data Bluetooth bagi tujuan pengesanan hubungan.</string>
+    <string name="terms_of_Use">Syarat Penggunaan</string>
+    <string name="privacy_statement">"Kenyataan Privasi "</string>
+    <string name="invalid_date">Tarikh tidak sah</string>
+    <string name="invalid_nric">NRIC tidak sah</string>
+    <string name="fin_entered_in_nric_error">Sentuh butang undur dan pilih profil FIN</string>
+    <string name="validation_failed">Pengesahan gagal; semak medan berwarna merah</string>
+    <string name="back_of_nric">Di <u>belakang</u> NRIC anda</string>
+    <string name="date_of_issue_ddmmyyyy">Tarikh Dikeluarkan (DD-MM-YYYY)</string>
+
+    <string name="have_work_pass_ready">Sediakan Pas Kerja anda :)</string>
+    <string name="have_dependent_pass_ready">Sediakan Pas Tanggungan anda :)</string>
+    <string name="fin_full_abbreviation">Nombor Pengenalan Asing (FIN)</string>
+    <string name="card_serial_number">Nombor Siri Kad</string>
+    <string name="have_student_pass_ready">Sediakan Pas Pelajar anda :)</string>
+    <string name="have_ltvp_ready">Sediakan Pas Lawatan Jangka Panjang (LTVP) anda :)</string>
+    <string name="invalid_fin">FIN Tidak Sah</string>
+    <string name="check_back_card">Periksa <u>belakang</u> kad untuk Tarikh Dikeluarkan</string>
+    <string name="or">ATAU</string>
+    <string name="download_sgworkpass">Muat turun aplikasi SGWorkPass dan imbas kod QR untuk Tarikh Dikeluarkan</string>
+    <string name="use_passport_you_enter_SG_with">Sila gunakan Pasport yang akan anda gunakan untuk memasuki Singapura :)</string>
+    <string name="passport_number">Nombor Pasport</string>
+    <string name="location_permission">Keizinan Lokasi</string>
+    <string name="allow_while_using_app">Benarkan semasa gunakan aplikasi</string>
+    <string name="allow">BENARKAN</string>
+    <string name="note_possible_exposure">Untuk ketahui pendedahan berpotensi COVID-19, keizinan diperlukan</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="battery_optimiser_opt">Biarkan aplikasi berfungsi di latar belakang</string>
+    <string name="bluetooth_data_deleted">Semua data Bluetooth aplikasi dipadam secara automatik setiap 25 hari.</string>
+
+    <string name="prominent_android_needs_location_permission">Aplikasi ini tidak mengumpul data lokasi di latar belakang. Keizinan lokasi diperlukan untuk aplikasi ini menggunakan Bluetooth bagi peranti Android.</string>
+    <string name="prominent_bluetooth_data_deleted">Data Bluetooth disulitkan dan disimpan di dalam alat peranti anda. Data akan berada di dalam peranti selama 25 hari sebelum dihapuskan secara automatik, dan akan dikongsi dengan MOH hanya apabila ia dimuatnaikkan.</string>
+
+    <string name="your_app_is_working_now">Aplikasi anda sedang berfungsi!</string>
+    <string name="keep_your_app_open"><b>Pastikan aplikasi dan Bluetooth dibuka di latar belakang</b> sehingga wabak ini berakhir.</string>
+    <string name="yes">YA!!</string>
+    <string name="app_updated">Aplikasi anda telah dikemas kini!</string>
+    <string name="more_languages">Lebih <b>bahasa</b> — বাংলা, ဗမာ, 中文, English, हिन्दी, தமிழ், ไทย</string>
+    <string name="id_verification"><b>Pengesahan identiti</b>, supaya anda boleh mendapatkan maklumat perubatan peribadi yang berkaitan dengan COVID-19 melalui aplikasi TraceTogether.</string>
+    <string name="start_setup">MULAKAN PENETAPAN</string>
+    <string name="change_language">Tukar Bahasa</string>
+    <string name="your_app_is_active">Aplikasi sedang aktif</string>
+    <string name="resuming_life_safely_together">Bersama meneruskan hidup dengan selamat</string>
+    <string name="safeentry_check_in">Daftar masuk SafeEntry</string>
+    <string name="pause_contact_tracing"><u>Jeda TraceTogether</u></string>
+    <string name="share_this_app">Kekal selamat bersama.\nKongsi aplikasi ini!</string>
+    <string name="title_home">Laman Utama</string>
+    <string name="title_upload">Muat Naik</string>
+    <string name="title_more">Lagi</string>
+    <string name="dear_singapore">Warga Singapura yang dihormati,</string>
+    <string name="onboard_desc_1">Kita telah menghadapi tahun yang mencabar, dengan pelbagai pengorbanan dalam usaha memerangi virus ini. Pada fasa pertarungan seterusnya, kami ingin membantu satu sama lain untuk kembali ke kehidupan yang seperti asal, dengan seberapa selamat yang boleh.</string>
+    <string name="onboard_desc_2">Kamu boleh memainkan peranan. Dengan menggunakan TraceTogether dan membantu orang lain menyediakannya, kamu dapat mengatasi wabak dan melindungi orang yang tersayang.</string>
+    <string name="onboard_desc_3">Kehidupan selamat yang baru bermula dengan kami semua, di sini.</string>
+    <string name="how_it_works_2_text_content_2">Data yang disimpan di dalam peranti anda selama lebih 25 hari akan dihapuskan secara automatik.</string>
+    <string name="mobile_number">Nombor Telefon</string>
+    <string name="back_of_card"><u>BELAKANG</u></string>
+    <string name="nationality">Kewarganegaraan</string>
+    <string name="paused_text">Kami tidak dapat membantu anda untuk mengesan potensi pendedahan kepada COVID-19 buat tempoh ini ☹ </string>
+
+    <string name="ltvp">Pas Lawatan Jangka Panjang</string>
+    <string name="pause_tt_title">Jeda TraceTogether</string>
+    <string name="pause_tt_30m">Jeda 30 minit</string>
+    <string name="pause_tt_2h">Jeda 2 jam</string>
+    <string name="pause_tt_8h">Jeda 8 jam</string>
+    <string name="your_profile">Profil Anda</string>
+    <string name="setting_hello">Helo</string>
+    <string name="app_version">Versi Apl</string>
+    <string name="help">Bantuan</string>
+    <string name="report_vulnerability">Lapor Kelemahan</string>
+    <string name="upload_data">Muat Naik Data</string>
+    <string name="use_for_moh_disclamer_1">Cuma pesakit COVID-19 terima kod muat naik.</string>
+    <string name="use_for_moh_disclaimer_2">Jika MOH tidak berikan kod muat naik, tidak perlu muat naik data :)</string>
+    <string name="enter_upload_code">MASUKKAN KOD MUAT NAIK</string>
+    <string name="enter_your_upload_code">Masukkan kod anda</string>
+    <string name="no_upload_code"><u>Tiada kod muat naik?</u></string>
+    <string name="upload_agreement">Dengan memuat naik data, anda bersetuju untuk kongsi data Bluetooth aplikasi anda selama 25 hari dengan MOH untuk membantu dalam pengesanan hubungan.</string>
+    <string name="invalid_pin">Kod muat naik tidak sah</string>
+    <string name="upload_completed">Muat naik selesai</string>
+    <string name="take_care">Jaga diri. Semoga cepat sembuh!</string>
+    <string name="done">KEMBALI KE HALAMAN UTAMA</string>
+    <string name="service_ok_title">TraceTogether memastikan anda selamat :)</string>
+    <string name="service_ok_body">Pemberitahuan ini bermaksud apl anda berjalan lancar.</string>
+    <string name="service_not_ok_title">Alamak! TraceTogether mengalami masalah :(</string>
+    <string name="service_not_ok_body">Buka apl dan beri semua kebenaran agar apl dapat berjalan lancar</string>
+    <string name="tracetogether_paused">TraceTogether dijeda</string>
+    <string name="service_paused_body">Sambung apl sekarang</string>
+    <string name="hang_in_there">Bertabahlah! Kami akan membanteras COVID-19 bersama.</string>
+    <string name="resume_now">Sambung sekarang</string>
+    <string name="app_not_working">Apl tidak berjalan</string>
+    <string name="please_allow_permissions">Sila beri kebenaran ini untuk pengesanan kontak efektif:</string>
+    <string name="for_national_servicemen">Bagi Anggota Khidmat Negara, sila hubungi Kerani Kanan Unit anda untuk Tarikh Dikeluarkan yang tertera pada belakang NRIC anda.</string>
+    <string name="nric_below_17">NRIC Tarikh Dikeluarkan tidak diperlukan bagi individu bawah 17 tahun.</string>
+    <string name="service_not_ok_action">Menyemak permohonan sekarang</string>
+    <string name="cancel">BATAL</string>
+    <string name="ok">OKEY</string>
+    <string name="upload_failed">" Muatnaik gagal. Sila cuba sebentar lagi."</string>
+    <string name="warning">AMARAN</string>
+    <string name="rooted">Kami mengesan bahawa telefon anda telah dipecah sekat. Untuk mengelakkan pengguna hasad mengakses data anda, lakukan Set Semula ke Asal, atau gunakan aplikasi pada telefon yang tidak dipecah sekat.</string>
+    <string name="temporarily">Tidak tersedia buat sementara waktu.</string>
+    <string name="check_in_to">Daftar masuk untuk :</string>
+    <string name="by_checking_in_you_declare_that">Dengan mendaftar masuk, anda mengaku bahawa:</string>
+    <string name="check_in">DAFTAR MASUK</string>
+    <string name="scan_your_digital_barcode">Imbas kod bar digital untuk daftar masuk/keluar SafeEntry</string>
+    <string name="check_out">DAFTAR KELUAR</string>
+    <string name="unable_to_in">Tidak boleh daftar keluar</string>
+    <string name="unable_to_out">Tidak boleh daftar masuk</string>
+    <string name="non_se_qr">Ini bukanlah seperti bukan kod QR Safentry</string>
+    <string name="ensure_you">Pastikan anda mengimbas kod QR SafeEntry yang sahih.</string>
+    <string name="scan_again">Imbas Sekali lagi</string>
+    <string name="check_your_connection">Semak sambungan Internet anda</string>
+    <string name="there_seems">Jangan risau, ini hanya masalah Internet. Pastikan ia bersambung dan cuba lagi.</string>
+    <string name="retry">CUBA LAGI</string>
+    <string name="we_re_reall">Maaf, izinkan kami periksa masalah ini. Sila cuba lagi kemudian.</string>
+    <string name="go_to_settings">Pergi ke Seting</string>
+    <string name="app_needs_camera">Aplikasi ini memerlukan Izin Kamera untuk mengimbas kod QR SafeEntry. Harap hidupkan Izin Kamera pada Pengesetan untuk seterusnya.</string>
+    <string name="no_more_form_filling">Tidak perlu mengisi borang!\nDan, hanya dengan satu sentuhan untuk anda daftar keluar.</string>
+    <string name="scan_and_go">Imbas QR dan pergi</string>
+    <string name="cool">HEBAT!</string>
+    <string name="need_identity">Perlukan kad pengenalan anda?</string>
+    <string name="use_digital_barcode">Sebaliknya, gunakanlah kod bar digital.\nHarap maklum bahawa pengimbas lama mungkin tidak boleh mengesan kod bar pada telefon.</string>
+    <string name="how_to_use">Cara menggunakannya</string>
+    <string name="network_issue_text">Berkemungikan terdapat masalah rangkaian. Periksa sambungan anda dan cuba lagi.</string>
+    <string name="please_allow_camera">Harap benarkan akses ke Kamera</string>
+    <string name="back_to_home">KEMBALI KE HALAMAN UTAMA</string>
+    <string name="app_works_in_background">Aplikasi kini berfungsi di latar belakang iOS — Ajaklah rakan-rakan anda turut serta dan beritahu mereka agar biarkan aplikasi berfungsi juga pada bahagian latar.</string>
+    <string name="scan_and_go_long">Imbas dan pergi ke kod QR SafeEntry - bebas borang!</string>
+    <string name="change_color"><b>Reka bentuk antara muka baru</b>— dari biru hingga merah</string>
+    <string name="scan_safeen">Imbas kod QR SafeEntry</string>
+    <string name="card_sn">Nombor\nSiri\nKad</string>
+    <string name="camera_perm">Izin Kamera diperlukan untuk mengimbas kod QR SafeEntry</string>
+    <string name="you_have_no_close_contact">— Anda tidak berhubung rapat dengan kes Covid-19 yang telah disahkan sepanjang tempoh 14 hari sebelum ini. *#</string>
+    <string name="you_have_no_quarantine">— Buat masa ini anda bukan dalam Arahan Kuarantin atau Notis Duduk di Rumah*</string>
+    <string name="no_fever">— Anda tidak demam atau mempunyai tanda-tanda selsema.</string>
+    <string name="agree_to_the_terms_se">— Anda setuju dengan terma dan membenarkan pengumpulan/penggunaan informasi anda untuk tujuan pengesanan orang-orang yang berhubung rapat dengan pesakit Covid-19</string>
+    <string name="terms">terma</string>
+    <string name="not_applicable_if_you">* Tiada tindakan sekiranya anda mendapatkan khidmat rawatan di kemudahan perubatan</string>
+    <string name="not_applicable_frontline"># Tiada tindakan untuk pekerja barisan hadapan COVID-19</string>
+
+    <string name="required">Diperlukan</string>
+
+    <string name="do_you_have">Anda mempunyai kad Nombor Pengenalan Asing (FIN)?</string>
+    <string name="fin_card_check_yes">Ya</string>
+    <string name="fin_card_check_no">Tidak</string>
+
+    <string name="sn_on_fin"><![CDATA[<b>Isikan <font color="#F06566">Nombor Serial Kad</font> yang tertera di kad FIN anda</b>]]></string>
+    <string name="enter_the_date_of_application"><![CDATA[Isikan Tarikh Permohonan kad FIN anda — boleh dijumpai pada surat-surat kelulusan atau makluman anda dari MOM]]></string>
+    <string name="doa">Tarikh Permohonan kad FIN anda</string>
+    <string name="doa_with_date_format">Tarikh Permohonan\n(DD-MMM-YYYY)</string>
+
+    <string name="for_work_pass"><![CDATA[<bPas Kerja</b> (hadapan)]]></string>
+    <string name="for_long_term_pass"><![CDATA[<b>Pas Tanggungan</b> (belakang)]]></string>
+
+    <!-- UPDATE DIALOG BOX -->
+    <string name="force_update_dialog_title">Kemas kini aplikasi anda sekarang</string>
+    <string name="force_update_dialog_message">Kami telah membuat perubahan yang penting, dan anda perlu mengemas kini aplikasi anda untuk terus menggunakan TraceTogether.</string>
+
+    <string name="optional_update_dialog_title">Terdapat versi yang baru</string>
+    <string name="optional_update_dialog_message">Kami telah memperbaiki TraceTogether untuk menawarkan khidmat yang lebih baik bagi anda. Kemas kini aplikasi anda sekarang!</string>
+    <string name="optional_update_dialog_remind_me_again_button_text">Ingatkan saya lagi</string>
+    <string name="update_dialog_update_button_text">KEMAS KINI</string>
+
+    <string name="use_the_pas">Gunakan Pasport yang akan anda gunakan untuk memasuki Singapura. Butiran di bawah akan dipadankan dengan imigresen Singapura.</string>
+    <string name="txt_verified_with_SG_immigration">Disahkan oleh imigresen Singapura</string>
+    <string name="tab_back_sg_profile">Sila ketik butang Kembali dan pilih profil warga Singapura</string>
+    <string name="invalid_passport_format">Format Pasport tidak sah</string>
+
+    <!--    passport flow-->
+    <string name="how_long_should_keep_app">Berapa lama harus anda simpan aplikasi ini?</string>
+    <string name="passport_user_overlay_detail_text"><![CDATA[Harap jangan padamkan aplikasi ini dalam tempoh <b>14 hari</b> <u>selepas</u> anda berangkat dari Singapura.<br/><br/>
+    Ini membolehkan Kementerian Kesihatan Singapura untuk maklumkan kepada anda jika anda telah berhubung rapat dengan kes COVID-19, bagi melindungi anda dan orang-orang yang tersayang dengan lebih baik.<br/><br/>
+    Apabila anda di Singapura, jangan lupa untuk <b>pastikan aplikasi anda aktif di latar</b> dan <b>Bluetooth dihidupkan</b>.<br/> Selamat berangkat!]]></string>
+    <string name="re_registration_title">Teruskan daftar semula?</string>
+    <string name="txt_birth">Tarikh Lahir</string>
+    <string name="txt_passport_no">No. Pasport</string>
+    <string name="txt_saved">DISIMPAN</string>
+    <string name="txt_edit"><u>Ubah</u></string>
+    <string name="txt_activate_your_app">Sila hidupkan aplikasi anda setelah lepas imigresen Singapura sahaja.</string>
+    <string name="txt_activate_app">HIDUPKAN APLIKASI</string>
+    <string name="txt_visit_safe_travel">Untuk mengetahui lebih tentang apa yang perlu disiapkan sebelum ke Singapura, layari safetravel.ica.gov.sg</string>
+    <string name="passport_ica_error_title">Imigresen Singapura tidak mempunyai butiran Pasport anda</string>
+    <string name="passport_ica_error_message">Anda hanya boleh aktifkan aplikasi anda setelah lepas imigresen Singapura. Semak jika anda telah mengisikan butiran yang betul di dalam aplikasi anda.</string>
+    <string name="passport_fin_holder_title">Sila daftar sekali lagi menggunakan FIN anda</string>
+    <string name="passport_fin_holder_message">Ini membolehkan MOH untuk menghantar keputusan ujian COVID kepada anda dengan tepat.</string>
+    <string name="passport_fin_personal_details_safe">Butiran peribadi anda tidak akan dikongsi sama sekali dengan alat peranti lain.</string>
+    <string name="invalid_user_message">"Jangan risau, ini bukan salah anda. Sistem ini telah menemu masalah apabila memproses butiran pengguna. Sila daftar sekali lagi untuk mengaktifkan ciri ini. "</string>
+    <string name="re_register">Daftar Lagi</string>
+    <string name="generic_unavailable">Tidak tersedia buat sementara waktu. Kami sedang berusaha untuk memperbaikinya</string>
+    <string name="you_re_okay">Anda tidak terdedah kepada jangkitan COVID-19</string>
+    <string name="records_from_the_last_14_days">Berdasarkan maklumat TraceTogether dan SafeEntry anda bagi 14 hari yang lalu</string>
+    <string name="see_details">Lihat butiran</string>
+    <string name="all_records">Semua maklumat</string>
+    <string name="possible_exposure">Kemungkinan pendedahan</string>
+    <string name="not_visited_by_covid_19_cases">Anda tidak ke tempat-tempat yang dilawati kes jangkitan COVID-19</string>
+    <string name="how_are_my_possible_exposures_determined">Bagaimanakah kemungkinan pendedahan saya ditentukan?</string>
+    <string name="you_were_at"><![CDATA[Anda telah ke tempat yang dilawati kes jangkitan COVID-19 <font color="#0070E0"><u><b>Lihat butiran</b></u> </font>]]></string>
+    <string name="monitor_your_health">Sebagai langkah berjaga-jaga, pantau kesihatan anda untuk 14 hari dari tarikh lawatan ke tempat tersebut. Jika anda mempunyai simtom demam atau pernafasan, sila jumpa doktor dan maklumkan kepadanya tentang pendedahan ini.</string>
+    <string name="check_for_symptoms"><u>Periksa untuk mengesan simtom</u></string>
+    <string name="your_possible_exposures">KEMUNGKINAN PENDEDAHAN ANDA</string>
+    <string name="a_covid_19_case_visited">Seorang kes jangkitan COVID-19 telah melawat %s:</string>
+    <string name="locations_matched_by_postal_code">Lokasi dipadankan dengan poskod.</string>
+    <string name="no_check_out">Tiada log keluar</string>
+    <string name="place_visited_by_a_covid_19_case">Anda telah ke tempat yang dilawati kes jangkitan COVID-19</string>
+    <string name="based_on_al"><![CDATA[Berdasarkan maklumat TraceTogether dan SafeEntry anda bagi 14 hari yang lalu <font color="#0070E0"><u><b>Lihat butiran</b></u> </font>]]></string>
+    <string name="possible_ex">Kemungkinan pendedahan</string>
+    <string name="title_history">Sejarah</string>
+    <string name="qr_check_in_button">Imbas QR</string>
+    <string name="fav_check_in_button">Kegemaran</string>
+    <string name="group_check_in_button">Kumpulan</string>
+    <string name="total_exchanges_today">%s jumlah pertukaran untuk hari ini</string>
+
+    <string name="got_it">MAKLUM</string>
+    <string name="bluetooth_exchanges">Pertukaran Isyarat Bluetooth</string>
+    <string name="your_history"><![CDATA[Sejarah anda menujukkan <b>pertukaran isyarat Bluetooth TraceTogether</b> dengan pengguna lain, dan <b>daftaran masuk/keluar SafeEntry</b> yang menggunakan aplikasi TraceTogether.<br/><br/>Maklumat ini membantu kami untuk beritahu anda jika anda telah berdekatan dengan pesakit COVID-19 semasa tempoh jangkitan mereka.<br/><br/>Data yang disimpan lebih 25 hari akan dihapuskan secara automatik.]]></string>
+    <string name="past_x_days">25 hari yang lalu</string>
+    <string name="no_records_yet">Belum ada rekod.</string>
+    <string name="check_out_now"><u>Daftar keluar sekarang</u></string>
+    <string name="successful_check_out">Daftar keluar berjaya.</string>
+
+    <!--    More-->
+    <string name="title_account">Akaun</string>
+    <string name="manage_family_members">Urus Ahli Keluarga</string>
+    <string name="title_help_feedback">Bantuan &amp; Maklum Balas</string>
+    <string name="submit_error_logs">Serahkan Log Ralat</string>
+
+    <!--    error logs-->
+    <string name="txt_submit_error_info">Kadangkala, pengguna akan menghadapi isu-isu pada aplikasi yang tidak dapat kami salin. Apabila ini berlaku, pengguna boleh menyerahkan log ralat untuk membantu kami memahami isu yang dialami.</string>
+    <string name="txt_error_logs_successfully_shared">Log ralat berjaya dikongsi</string>
+    <string name="txt_thank_you_update_your_app_regularly">Terima kasih atas bantuan anda! Pastikan anda mengemas kini aplikasi anda untuk mendapatkan peningkatan yang terkini 😊</string>
+
+    <!--Safe Entry-->
+    <string name="visit_place_often">Sering ke sesuatu tempat?</string>
+    <string name="tap_on_star_text">Ketik butang \'bintang\' untuk menambahkannya ke dalam Kegemaran anda! Anda tidak perlu mengimbas kod QR lagi untuk lawatan seterusnya.</string>
+    <string name="awesome">HEBAT!</string>
+
+    <string name="got_it_exclamation_mark">BERJAYA!</string>
+
+    <string name="add_this_location_to_favourites"><u>Simpan lokasi ini</u> ke dalam Kegemaran</string>
+    <string name="check_in_fav_added">Lokasi ini ada di dalam Kegemaran anda</string>
+    <string name="saved_to_favourites">Disimpan ke dalam Kegemaran.</string>
+    <string name="removed_from_favourites">Dipadamkan dari Kegemaran.</string>
+
+    <string name="last_qr_check_in">Daftar masuk terakhir</string>
+    <string name="view_pass"><u>Lihat Pas</u></string> <!--Need underline as hyperlink -->
+
+    <!--For SE Widget-->
+
+    <string name="no_favourites_yet">Belum ada Kegemaran</string>
+    <string name="no_favourites_yet_text">Sering ke sesuatu tempat? Simpannya ke dalam Kegemaran anda dengan mengetik butang \'bintang\'.</string>
+    <string name="see_my_history">Lihat Sejarah</string>
+
+    <string name="by_checking_in_you_agree_with_terms">Dengan mendaftar masuk, anda bersetuju kepada syarat-syarat berkenaan.</string>
+    <string name="your_favourite_places_text">TEMPAT-TEMPAT KEGEMARAN ANDA</string>
+
+    <string name="no_results_found">Tiada keputusan</string>
+    <string name="location_not_saved_to_favourites">Lokasi yang anda cari tidak disimpan di dalam Kegemaran anda.</string>
+
+    <string name="add_family_members">Tambah Ahli Keluarga</string>
+    <string name="add_your_family_members">Tambah ahli keluarga anda</string>
+    <string name="add_your_family_members_text">Daftar masuk SafeEntry untuk ahli keluarga anda yang tidak memiliki alat peranti mudah alih.</string>
+
+    <string name="their_nric">Apakah nombor NRIC/FIN mereka?</string>
+    <string name="add_nickname">Tambah nama panggilan untuk ahli keluarga ini</string>
+
+    <string name="your_family_members">Ahli keluarga anda</string>
+    <string name="you_can_check_in_text">Anda boleh daftar masuk atas nama ahli-ahli ini</string>
+    <string name="add_another_person">+ Tambah lagi ahli</string>
+
+    <string name="who_are_you_checking_in_with">Anda mendaftar masuk dengan siapa?</string>
+    <string name="select_all">Pilih semua</string>
+
+    <string name="invalid_nric_fin">NRIC/FIN tidak sah. Sila isikan NRIC/FIN yang betul.</string>
+    <string name="already_exists">NRIC/FIN ini sudah ditambah.</string>
+
+    <string name="se_unavailable">SafeEntry QR tidak tersedia buat sementara waktu</string>
+    <string name="consider_us">Cuba cara lain untuk daftar masuk/keluar.</string>
+
+    <string name="group_check_in_error_title">Maaf! Tempat ini tidak membenarkan daftar masuk secara kumpulan.</string>
+    <string name="group_check_in_error_message">Keluarga anda perlu mendaftar masuk menggunakan alat peranti TraceTogether masing-masing. Ini memastikan semua pelawat telah mengaktifkan TraceTogether, untuk melindungi anda dengan lebih baik di tempat-tempat yang sesak.</string>
+    <string name="group_check_in_ok_text">OK, daftar masuk untuk saya sendiri</string>
+    <string name="txt_others">Lain-lain</string>
+
+    <string name="more_info"><u>Maklumat lanjut</u></string>
+    <string name="remove">PADAM</string>
+    <string name="please_try_again_later">Sila cuba lagi kemudian</string>
+
+    <string name="agree">SETUJU</string>
+    <string name="remind_me_again"><u>Ingatkan saya lagi</u></string>
+    <string name="search_from_list_below">Cari dari senarai di bawah</string>
+    <string name="pass_not_supported">(Nombor pasport tidak disokong)</string>
+    <string name="passport_user_message"><![CDATA[Ciri ini hanya diperlukan di Singapura. <b><u>Jika anda kini berada di Singapura</u></b>, daftar semula di aplikasi untuk mengaktifkan ciri ini.]]></string>
+    <string name="passport_user_re_registration_detail_text"><![CDATA[<b>Teruskan hanya jika anda kini berada di Singapura.</b> Meneruskan pendaftaran akan menubuhkan profil baru dan data aplikasi anda sebelum ini akan dihapuskan.]]></string>
+    <string name="txt_next_step"><![CDATA[<b>Langkah seterusnya: Lepaskan imigresen Singapura, dan aktifkan aplikasi anda <u>setelah itu</u> 🤗🇸🇬</b>]]></string>
+    <string name="oversea_number_disclaimer_text">Nota: Aplikasi ini hanya untuk penggunaan di dalam Singapura. Beberapa rangkaian dan nombor telefon luar negara tidak akan menerima kata laluan sekali (OTP) untuk proses verifikasi. Dalam keadaan ini, sila tubuhkan aplikasi anda di Singapura menggunakan kad SIM tempatan.</string>
+    <string name="how_it_works_2_text_content_3">Data hanya boleh digunakan untuk pengesanan hubungan. Penggunaan data selain ini hanya dikecualikan apabila data diperlukan untuk penyiasatan kesalahan serius. Jika data pengesanan hubungan pada peranti anda diperlukan oleh agensi penguatkuasaan undang-undang, anda akan dimaklumkan dan ditunjukkan bagaimana untuk memuatnaikkan data. Sila lihat Kenyataan Privasi untuk butiran lanjut.</string>
+    <!--for hyperlinking-->
+    <string name="serious_offences">kesalahan serius</string>
+    <string name="privacy_safeguards">Kenyataan Privasi</string>
+
+    <string name="error_tries">Terlalu banyak kesilapan dalam percubaan.</string>
+    <string name="favourite_check_in_error_message">Sila cuba lagi, atau imbas kod QR SafeEntry untuk daftar masuk.</string>
+    <string name="favourite_check_in_error_title">Maaf! Tempat ini telah mengemas kini maklumat SafeEntry mereka.</string>
+    <string name="upload_cpc">Dengan meneruskan, anda memuat naik data Bluetooth aplikasi anda untuk membantu dalam siasatan dan tindakan undang-undang jenayah.</string>
+    <string name="stay_safe">Terima kasih. Jaga diri!</string>
+    <string name="unselect_all">Hilangkan semua</string>
+    <string name="user_you">%s (ANDA)</string>
+    <string name="trace_together_devices_nearby">%s peranti berdekatan</string>
+    <string name="min_ago">%s minit yang lalu</string>
+
+    <string name="your_covid">Status Kesihatan COVID Anda</string>
+    <string name="vaccinated">Sudah divaksin</string>
+    <string name="not_vaccina">Belum divaksin</string>
+    <string name="no_exposure_alerts">Tiada amaran pendedahan</string>
+    <string name="coming_soon">Akan Datang</string>
+    <string name="covid_test_result">Keputusan ujian COVID</string>
+    <string name="count_possible_exposure">%s kemungkinan pendedahan</string>
+    <string name="count_possible_exposures">%s kemungkinan pendedahan</string>
+    <string name="covid_health_status">Status Kesihatan COVID</string>
+    <string name="vaccination_status">Status Vaksinasi</string>
+    <string name="possible_exposure_details">Anda telah ke tempat yang dilawati kes COVID-19. Pantau kesihatan anda walaupun selepas vaksinasi kerana vaksinasi tidak memberi perlindungan 100%.</string>
+
+</resources>

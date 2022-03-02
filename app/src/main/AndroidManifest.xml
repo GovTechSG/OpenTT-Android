@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sg.gov.tech.bluetrace">
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name=".TracerApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".revamp.splash.SplashActivity"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".passport.PassportProfileActivity"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".LoveLetterActivity" />
+        <activity android:name=".onboarding.newOnboard.HowItWorksActivity" />
+
+        <meta-data
+            android:name="google_analytics_adid_collection_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="google_analytics_ssaid_collection_enabled"
+            android:value="false" />
+
+
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Accepts both the URIs that begin with
+                "https://tracetogether.gov.sg/openapp" &&
+                "intent://tracetogether.gov.sg/openapp#Intent;scheme=https" -->
+                <data
+                    android:host="tracetogether.gov.sg"
+                    android:pathPrefix="/openapp"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".groupCheckIn.addFamilyMembers.AddFamilyMembersActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".groupCheckIn.safeEntry.GroupSafeEntryActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".revamp.safeentry.SafeEntryCheckInOutActivityV2"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".boot.StartOnBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".services.FCMService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".services.light.LightLifterService"
+            android:exported="false" />
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification_icon" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/notification_tint" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".permissions.RequestFileWritePermission"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
+
+        <service
+            android:name=".services.BluetoothMonitoringService"
+            android:foregroundServiceType="location" />
+
+        <activity
+            android:name=".debugger.PeekActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.DebugNoActionBar" />
+        <activity
+            android:name=".debugger.PlotActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.DebugNoActionBar" />
+
+        <activity
+            android:name=".onboarding.newOnboard.MainOnboardingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".onboarding.newOnboard.OnboardExistingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".SafeEntryActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+
+        <activity
+            android:name=".onboarding.newOnboard.AppUpdatedV2Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <receiver android:name=".receivers.UpgradeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receivers.UnpauseAlarmReceiver">
+            <intent-filter>
+                <action android:name="sg.gov.tech.bluetrace.ACTION_UNPAUSE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

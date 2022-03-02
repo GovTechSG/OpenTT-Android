@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/safe_check_in_out"
+    app:startDestination="@id/fragmentSafeEntryCheckIn">
+
+    <fragment
+        android:id="@+id/fragmentSafeEntryCheckInList"
+        android:name="sg.gov.tech.bluetrace.fragment.FragmentSafeEntryCheckInToList"
+        android:label="FragmentSafeEntryCheckInToList">
+        <action
+            android:id="@+id/action_safeEntryVenueListFragment_to_safeEntryCheckInFragment"
+            app:destination="@id/fragmentSafeEntryCheckIn"
+            app:enterAnim="@animator/window_slideleft_enter"
+            app:exitAnim="@animator/window_slideleft_exit"
+            app:popEnterAnim="@animator/window_slideright_enter"
+            app:popExitAnim="@animator/window_slideright_exit" />
+        <argument
+            android:name="venue"
+            app:argType="sg.gov.tech.bluetrace.qrscanner.QrResultDataModel" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentSafeEntryCheckIn"
+        android:name="sg.gov.tech.bluetrace.revamp.safeentry.SafeEntryCheckInFragmentV2"
+        android:label="SafeEntryViewPassFragmentV2">
+        <argument
+            android:name="venue"
+            app:argType="sg.gov.tech.bluetrace.qrscanner.QrResultDataModel" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentSafeEntryViewPass"
+        android:name="sg.gov.tech.bluetrace.revamp.safeentry.SafeEntryViewPassFragmentV2"
+        android:label="SafeEntryViewPassFragmentV2">
+        <action
+            android:id="@+id/action_safeEntryViewPassFragment_to_safeEntryCheckOutFragment"
+            app:destination="@id/fragmentSafeEntryCheckOut"
+            app:enterAnim="@animator/window_slideleft_enter"
+            app:exitAnim="@animator/window_slideleft_exit"
+            app:popEnterAnim="@animator/window_slideright_enter"
+            app:popExitAnim="@animator/window_slideright_exit" />
+        <argument
+            android:name="venue"
+            app:argType="sg.gov.tech.bluetrace.qrscanner.QrResultDataModel" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentSafeEntryCheckOut"
+        android:name="sg.gov.tech.bluetrace.revamp.safeentry.SafeEntryCheckOutFragment"
+        android:label="SafeEntryCheckOutFragment">
+        <argument
+            android:name="venue"
+            app:argType="sg.gov.tech.bluetrace.qrscanner.QrResultDataModel" />
+    </fragment>
+
+</navigation>

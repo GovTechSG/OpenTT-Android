@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tracetogether_fancy"><![CDATA[<font color="#F06566">合力</font><font color="#C93E3C">追踪</font>]]></string>
+    <string name="to_sg_with_love">致我们敬爱的新加坡人民</string>
+    <string name="top_to_open">打开信封</string>
+    <string name="next">下一步</string>
+    <string name="back">返回</string>
+    <string name="help_recall"><u>协助您记</u>得这几个星期内和谁在哪里接触过。</string>
+    <string name="notifies_you">若您与冠病确诊病例接触过，将会<u>迅速地通知您</u>，以保护您与您的亲友</string>
+    <string name="how_it_works_2_text_title">数据仅在有需要时使用</string>
+    <string name="how_it_works_2_text_content">您的蓝牙邻近感应数据<b>已安全保存在您手机里。</b>如果您冠病检测结果呈阳性，MOH 将联络您，以上传数据协助追踪与您有密切接触的人*。</string>
+    <string name="lets_go">开始</string>
+    <string name="enter_your_number">输入您的手机号码</string>
+    <string name="moh_use_number">若您可能与冠病确诊病例接触过，MOH将使用此号码联系您。</string>
+    <string name="get_otp">获取OTP（一次性密码）</string>
+    <string name="verify_your_mobile_number">验证您的手机号码</string>
+    <string name="otp_sent">输入发送到 %s 的OTP</string>
+    <string name="wrong_number"><u>号码错误？</u></string>
+    <string name="resend">重发</string>
+    <string name="verify">验证</string>
+    <string name="invalid_otp">OTP输入有误</string>
+    <string name="select_your_profile">选择您的个人档案</string>
+    <string name="profile_nric">新加坡公民或永久居民（所有年龄）</string>
+    <string name="profile_fin_work">FIN - 工作准证</string>
+    <string name="profile_fin_dependent">FIN - 家属准证</string>
+    <string name="profile_fin_student">FIN - 学生准证</string>
+    <string name="profile_fin_ltvp">FIN - 长期探访准证</string>
+    <string name="profile_visitor">探访新加坡</string>
+    <string name="proceed">继续</string>
+    <string name="otp_auto_filled">您的OTP已自动输入</string>
+    <string name="close_uppercase">关闭</string>
+    <string name="why_need_detail">为何需要我的详细资料 ？</string>
+    <string name="why_need_detail_desc">您的独特识别号可以让MOH在需要给您有关冠病的重要健康建议时，<u>联系到对的人</u>。</string>
+    <string name="i_see_got_it">好。我知道了！</string>
+    <string name="have_nric_ready">请准备好您的 NRIC 号码或出生证明号码 :)</string>
+    <string name="nric_profile_title">您的 NRIC 详情</string>
+    <string name="wp_profile_title">您的 FIN - 工作准证详情</string>
+    <string name="dp_profile_title">您的 FIN - 家属准证详情</string>
+    <string name="stp_profile_title">您的 FIN - 学生准证详情</string>
+    <string name="ltvp_profile_title">您的 FIN - 长期探访准证详情</string>
+    <string name="passport_profile_title">您的护照详情</string>
+    <string name="name">名字</string>
+    <string name="nric_birth_cert_no_title">NRIC / 出生证明号码</string>
+    <string name="date_of_birth">出生日期</string>
+    <string name="date_of_issue">签发日期</string>
+    <string name="nric_date_of_issue">NRIC 签发日期</string>
+    <string name="fin_date_of_issue">FIN 签发日期</string>
+    <string name="dob_passport">出生日期（根据护照）</string>
+    <string name="how_to_find"><u>如何找到？</u></string>
+    <string name="moh_use_info">您提供的信息准确无误。您同意接受我们的使用条款和隐私声明，并同意在 MOH 与您联络时，上传您的蓝牙数据，以协助密切接触者的追踪工作。</string>
+    <string name="terms_of_Use">使用条款</string>
+    <string name="privacy_statement">隐私声明</string>
+    <string name="invalid_date">日期无效</string>
+    <string name="invalid_nric">NRIC无效</string>
+    <string name="fin_entered_in_nric_error">请点击返回并选择FIN简介</string>
+    <string name="validation_failed">验证失败；检查所有红色字段</string>
+    <string name="back_of_nric">在您的NRIC<u>背面</u></string>
+    <string name="date_of_issue_ddmmyyyy">签发日期 (DD-MM-YYYY)</string>
+    <string name="have_work_pass_ready">请准备好您的工作准证:)</string>
+    <string name="have_dependent_pass_ready">请准备您的家属准证 :)</string>
+    <string name="fin_full_abbreviation">外国身份证号码（FIN）</string>
+    <string name="card_serial_number">卡序列号</string>
+    <string name="have_student_pass_ready">请准备您的学生准证 :)</string>
+    <string name="have_ltvp_ready">请准备您的长期探访准证 :)</string>
+    <string name="invalid_fin">FIN无效</string>
+    <string name="check_back_card">检查证件<u>背面</u>的签发日期</string>
+    <string name="or">或</string>
+    <string name="download_sgworkpass">下载SGWorkPass应用程序，并扫描QR码以查看签发日期</string>
+    <string name="use_passport_you_enter_SG_with">请使用您入境新加坡时的护照资料 :)</string>
+    <string name="passport_number">护照号码</string>
+    <string name="location_permission">位置信息</string>
+    <string name="allow_while_using_app">使用应用程序时允许</string>
+    <string name="allow">允许</string>
+    <string name="note_possible_exposure">为获知您是否与冠病患者直接接触，您的应用程序需开启以下权限</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="battery_optimiser_opt">让应用程序在后端运行</string>
+    <string name="bluetooth_data_deleted">我们每25天会自动删除您应用程序中的所有蓝牙数据。</string>
+
+    <string name="prominent_android_needs_location_permission">本应用程序不会在背景收取位置数据。应用程序在安卓设备上使用蓝牙设置需要开启位置权限。</string>
+    <string name="prominent_bluetooth_data_deleted">蓝牙数据已加密并保存在您的设备中。超过 25 天的数据将自动从您的设备中删除。数据也只会在被要求上传后才会和 MOH 分享。</string>
+
+    <string name="your_app_is_working_now">您的应用程序正在运行！</string>
+    <string name="keep_your_app_open">请将此应用程序<u>保持后端运行</u>，并<u>将蓝牙保持开启状态</u>，直到疫情结束为止。</string>
+    <string name="yes">是！！</string>
+    <string name="app_updated">您的应用程序已更新！</string>
+    <string name="more_languages">更多<b>语言</b> — বাংলা, ဗမာ, English, हिन्दी, Melayu, தமிழ், ไทย</string>
+    <string name="id_verification"><b>身份验证</b>，让您可以通过合力追踪接收和冠状病毒有关的个人医疗信息</string>
+    <string name="start_setup">开始设置</string>
+    <string name="change_language">更改语言</string>
+    <string name="your_app_is_active">您的应用程序处于活跃状态</string>
+    <string name="resuming_life_safely_together">让我们齐心协力、安全地恢复生活</string>
+    <string name="safeentry_check_in">SafeEntry登入</string>
+    <string name="pause_contact_tracing"><u>暂停合力追踪</u></string>
+    <string name="share_this_app">让我们一起携手防疫。\n分享此应用程序!</string>
+    <string name="title_home">首页</string>
+    <string name="title_upload">上载</string>
+    <string name="title_more">更多</string>
+    <string name="dear_singapore">亲爱的新加坡人民,</string>
+    <string name="onboard_desc_1">今年是个充满挑战的一年。我们努力对抗疫情的同时，也做出了许多的牺牲。我们在接下来的抗疫阶段中必须齐心协力、安全有序地恢复正常生活。</string>
+    <string name="onboard_desc_2">您可以帮助我们更安全地抗击疫情。通过使用“合力追踪”和帮助他人设置此应用程序，您能制止冠病病毒的传播，保护您的亲友。</string>
+    <string name="onboard_desc_3">让我们万众一心，共同迈入安全的新常态。</string>
+    <string name="how_it_works_2_text_content_2">保存在您手机的数据将在 25 天后自动删除。</string>
+    <string name="mobile_number">手机号码</string>
+    <string name="back_of_card"><u>背面</u></string>
+    <string name="nationality">国籍</string>
+    <string name="paused_text">很抱歉，这段期间，我们将无法获知您是否曾与冠病患者直接接触 ☹ </string>
+
+    <string name="ltvp">长期探访准证</string>
+    <string name="pause_tt_title">暂停合力追踪</string>
+    <string name="pause_tt_30m">暂停30分钟</string>
+    <string name="pause_tt_2h">暂停2小时</string>
+    <string name="pause_tt_8h">暂停8小时</string>
+    <string name="your_profile">您的个人档案</string>
+    <string name="setting_hello">您好</string>
+    <string name="app_version">应用程序版本</string>
+    <string name="help">协助</string>
+    <string name="report_vulnerability">报告漏洞</string>
+    <string name="upload_data">上传数据</string>
+    <string name="use_for_moh_disclamer_1">代码仅提供给新冠病毒病的患者。</string>
+    <string name="use_for_moh_disclaimer_2">"若您未获取来自卫生部的上传代码，则无需上传数据：) "</string>
+    <string name="enter_upload_code">输入上传代码</string>
+    <string name="enter_your_upload_code">输入您的上传代码</string>
+    <string name="no_upload_code"><u>没有上传代码？</u></string>
+    <string name="upload_agreement">上传数据意味着您同意与 MOH 分享您应用程序过去 25 天保存的蓝牙数据，以协助追踪工作。</string>
+    <string name="invalid_pin">无效的上传代码</string>
+    <string name="upload_completed">上传已完成</string>
+    <string name="take_care">请多保重。尽快好起来！</string>
+    <string name="done">返回首页</string>
+    <string name="service_ok_title">合力追踪正在运行，并确保您的安全：)</string>
+    <string name="service_ok_body">这项通知会一直保持讯号状态，以表明您的应用程序运行良好</string>
+    <string name="service_not_ok_title">不妙！合力追踪不能良好运行 :(</string>
+    <string name="service_not_ok_body">开启应用程序并允许所有应用程序权限，让它能够继续确保您的安全</string>
+    <string name="tracetogether_paused">合力追踪已暂停</string>
+    <string name="service_paused_body">现在恢复应用程序，让它能够继续确保您的安全</string>
+    <string name="hang_in_there">加油！大家齐心协力，即可战胜冠病疫情。</string>
+    <string name="resume_now">立即恢复</string>
+    <string name="app_not_working">您的应用程序无法运行</string>
+    <string name="please_allow_permissions">请允许以下权限以进行有效的接触者追踪：</string>
+    <string name="for_national_servicemen">至于国民服役人员，请向您的部队秘书长查询您身份证背面注明的签发日期。</string>
+    <string name="nric_below_17">17岁以下者无需身份证的签发日期。</string>
+    <string name="service_not_ok_action">现在检查应用程序</string>
+    <string name="cancel">取消</string>
+    <string name="ok">好</string>
+    <string name="upload_failed">上传失败。请稍后再试。</string>
+    <string name="warning">警告</string>
+    <string name="rooted">我们检测到您的手机遭破解入侵。请重新设置手机，以免其他用户恶意盗取您的数据，或者使用另一台没有遭破解的手机。</string>
+    <string name="temporarily">目前无法使用</string>
+    <string name="there_seems">请放心，这是网络问题。连接后，请再试一次。</string>
+    <string name="retry">请重试</string>
+    <string name="check_in_to">登记进入：</string>
+    <string name="by_checking_in_you_declare_that">登记入场，即表示您声明：</string>
+    <string name="check_in">入场</string>
+    <string name="scan_your_digital_barcode">扫描您的电子条码，以登记入场和离场。</string>
+    <string name="check_out">离场</string>
+    <string name="unable_to_in">无法登记入场</string>
+    <string name="unable_to_out">无法登记离场</string>
+    <string name="non_se_qr">这不像是SafeEntry QR码。</string>
+    <string name="ensure_you">请确认您正在扫描有效的SafeEntry QR码。</string>
+    <string name="scan_again">请重新扫描</string>
+    <string name="check_your_connection">检查您的网络连接</string>
+    <string name="we_re_reall">很抱歉，让我们查看问题所在。请稍后再试。</string>
+    <string name="go_to_settings">前往设置</string>
+    <string name="app_needs_camera">您必须允许此应用程序使用相机功能，才能扫描SafeEntry QR码。请开启设置，允许使用相机功能。</string>
+    <string name="no_more_form_filling">无须再输入资料\n而且只须点击一次，即可登记离场。</string>
+    <string name="scan_and_go">扫描QR码即可</string>
+    <string name="cool">太好了！</string>
+    <string name="need_identity">需要身份证？</string>
+    <string name="use_digital_barcode">不妨扫描电子条码！\n请注意，旧式扫描仪可能无法从手机读取条码信息。</string>
+    <string name="how_to_use">如何使用</string>
+    <string name="network_issue_text">网络连接似乎出现了问题，请检查网络连接并重试。</string>
+    <string name="please_allow_camera">请允许使用相机功能。</string>
+    <string name="back_to_home">返回首页</string>
+    <string name="app_works_in_background">好消息！此应用程序现已可以在iOS操作系统后台运行！通知使用iOS的亲朋好友，并提醒他们开启蓝牙功能，让此应用程序在手机后台运行。</string>
+    <string name="scan_and_go_long">扫描SafeEntry QR码即可，无须再输入资料！</string>
+    <string name="change_color"><b>新界面设计</b>— 从蓝色到红色</string>
+    <string name="scan_safeen">扫描SafeEntry QR码。</string>
+    <string name="card_sn">卡序列号</string>
+    <string name="camera_perm">允许此应用程序使用相机功能，才能扫描SafeEntry QR码。</string>
+    <string name="you_have_no_close_contact">— 您过去14天不曾与COVID-19确诊病例密切接触 *#</string>
+    <string name="you_have_no_quarantine">— 您目前无须履行隔离令或居家通知 *</string>
+    <string name="no_fever">— 您没有出现发烧或类似流感的症状 *</string>
+    <string name="agree_to_the_terms_se">— 您同意相关条款及允许当局收集和使用您的资料，以进行COVID-19追查工作</string>
+    <string name="terms">条款</string>
+    <string name="not_applicable_if_you">*如果您在医疗机构求诊，则不适用</string>
+    <string name="not_applicable_frontline">#不适用于COVID-19前线人员</string>
+
+    <string name="required">必填</string>
+
+    <string name="do_you_have">您携带实体 FIN 卡吗？</string>
+    <string name="fin_card_check_yes">带了</string>
+    <string name="fin_card_check_no">没带</string>
+
+    <string name="sn_on_fin"><![CDATA[<b>请输入您 FIN 卡上的<font color="#F06566">身份证号码</font></b>]]></string>
+    <string name="enter_the_date_of_application"><![CDATA[<b>请输入 FIN 卡的<font color="#F06566">申请日期</font></b> — 您可在原则批准函（IPA）或通知书中查获此信息]]></string>
+    <string name="doa">FIN 卡的申请日期</string>
+    <string name="doa_with_date_format">申请日期\n(DD-MMM-YYYY)</string>
+
+    <string name="for_work_pass"><![CDATA[<b>工作准证</b> (前面)]]></string>
+    <string name="for_long_term_pass"><![CDATA[<b>家属准证</b> (背面)]]></string>
+
+    <!-- UPDATE DIALOG BOX -->
+    <string name="force_update_dialog_title">立即更新您的应用程序</string>
+    <string name="force_update_dialog_message">应用程序已有了重要变更。请下载更新，以继续使用 TraceTogether 应用程序。</string>
+
+    <string name="optional_update_dialog_title">有新版本可用</string>
+    <string name="optional_update_dialog_message">为了能更好地为您服务 ，我们已改进 TraceTogether 应用程序。请立即更新！</string>
+    <string name="optional_update_dialog_remind_me_again_button_text">下次提醒</string>
+    <string name="update_dialog_update_button_text">更新</string>
+
+    <string name="use_the_pas">请输入您入境新加坡时的护照资料。您输入的信息将会与新加坡移民局的档案核对。</string>
+    <string name="txt_verified_with_SG_immigration">已获新加坡移民局查证</string>
+    <string name="tab_back_sg_profile">请点击“返回”键并选择新加坡公民设置</string>
+    <string name="invalid_passport_format">护照格式无效</string>
+
+<!--    passport flow-->
+    <string name="how_long_should_keep_app">您什么时候才能删除应用程序？</string>
+    <string name="passport_user_overlay_detail_text"><![CDATA[请在离境后的<b>十四天</b><u>之后</u>才删除应用程序。<br/><br/>
+    这将能更好地保护您与至亲，在发现您与冠病确诊患者曾有近距离接触时，新加坡卫生部能通知您。<br/><br/>
+    当您在新加坡游览观光时，请记得<b>在手机后台运行应用程序并开启您的蓝牙设置</b>。<br/>开心旅游，防控为先！]]></string>
+    <string name="re_registration_title">是否继续再次登记注册？</string>
+    <string name="txt_birth">出生日期</string>
+    <string name="txt_passport_no">护照号码</string>
+    <string name="txt_saved">保存</string>
+    <string name="txt_edit"><u>编辑</u></string>
+    <string name="txt_activate_your_app">请在通关入境后，才激活您的应用程序。</string>
+    <string name="txt_activate_app">激活应用程序</string>
+    <string name="txt_visit_safe_travel">欲知在抵达新加坡前，还需要做些什么准备，请浏览 safetravel.ica.gov.sg</string>
+    <string name="passport_ica_error_title">尚未在新加坡移民局的数据找到您的护照资料</string>
+    <string name="passport_ica_error_message">请在通关入境后，才激活您的应用程序。此外，请确保您输入的资料是正确的。</string>
+    <string name="passport_fin_holder_title">请使用您的 FIN 再次注册注册。</string>
+    <string name="passport_fin_holder_message">这能让 MOH 准确无误地将您的冠病检测报告发送给您。</string>
+    <string name="passport_fin_personal_details_safe">我们不会将您的个人资料与其他设备分享。</string>
+    <string name="invalid_user_message">很抱歉。我们的系统在处理您的用户资料时，出现了错误。请再次注册登记，以启用功能。</string>
+    <string name="re_register">再次注册登记</string>
+    <string name="generic_unavailable">目前无法使用。我们正努力修复中</string>
+    <string name="you_re_okay">您未曾与2019冠病确诊病患接触</string>
+    <string name="records_from_the_last_14_days">根据您 TraceTogether 以及 SafeEntry 过去14天的记录</string>
+    <string name="see_details">查看记录</string>
+    <string name="all_records">所有记录</string>
+    <string name="possible_exposure">可能接触的地点和时间</string>
+    <string name="not_visited_by_covid_19_cases">您未曾去过2019冠病确诊病患去过的地方</string>
+    <string name="how_are_my_possible_exposures_determined">如何定夺可能接触的时间和地点？</string>
+    <string name="you_were_at"><![CDATA[您曾去过2019冠病确诊病患去过的地方 <font color="#0070E0"><u><b>查看记录</b></u> </font>]]></string>
+    <string name="monitor_your_health">为以防万一，与2019冠病确诊病患可能接触的接下来14天里，请观察您的健康状况。如出现发烧或呼吸困难等症状，请立即看医生并告知您可能曾与病患接触。</string>
+    <string name="check_for_symptoms"><u>查看症状</u></string>
+    <string name="your_possible_exposures">可能接触的地点和时间</string>
+    <string name="a_covid_19_case_visited">2019冠病确诊病患曾到过 %s:</string>
+    <string name="locations_matched_by_postal_code">地点是根据邮编匹配的。</string>
+    <string name="no_check_out">无登记离开记录</string>
+    <string name="place_visited_by_a_covid_19_case">您曾去过2019冠病确诊病患去过的地方</string>
+    <string name="based_on_al"><![CDATA[根据您 TraceTogether 以及 SafeEntry 过去14天的记录 <font color="#0070E0"><u><b>查看记录</b></u> </font>]]></string>
+    <string name="possible_ex">可能接触的地点和时间</string>
+    <string name="title_history">历史记录</string>
+    <string name="qr_check_in_button">扫描 QR 码</string>
+    <string name="fav_check_in_button">我的最爱</string>
+    <string name="group_check_in_button">组别</string>
+    <string name="total_exchanges_today">今天共有 %s 次信息交换</string>
+
+    <!--    More-->
+    <string name="title_account">账户</string>
+    <string name="manage_family_members">编辑家庭成员</string>
+    <string name="title_help_feedback">帮助与反馈</string>
+    <string name="submit_error_logs">提交错误日志</string>
+
+    <!--    error logs-->
+    <string name="txt_submit_error_info">有时，用户在使用应用程序时，会遇到一些我们无法复制的问题。当这种情况发生时，我们可能需要用户提交错误日志，以便了解问题所在。</string>
+    <string name="txt_error_logs_successfully_shared">错误日志分享成功</string>
+    <string name="txt_thank_you_update_your_app_regularly">T感谢您的帮忙！请定期更新您的应用程序，以使用改进版本😊</string>
+
+    <string name="got_it">了解</string>
+    <string name="bluetooth_exchanges">蓝牙信号交换记录</string>
+    <string name="your_history"><![CDATA[您的历史记录显示您的以及其他<b>“合力追踪”用户的蓝牙信号交换记录</b>以及使用“合力追踪”应用程序扫描<b>SafeEntry 码登记或登出</b>的活动记录。<br/><br/>如果发现您曾在冠病患者周围活动且他们当时正处发病期，这些记录将有助于我们通知您。<br/><br/>超过 25 天的数据将自动被删除。]]></string>
+    <string name="past_x_days">过去的25天</string>
+    <string name="no_records_yet">尚无记录。</string>
+    <string name="check_out_now"><u>立即登出</u></string>
+    <string name="successful_check_out">登出成功。</string>
+
+    <!--Safe Entry-->
+    <string name="visit_place_often">经常到某个地方？</string>
+    <string name="tap_on_star_text">点击星号标记，将地点存入“我的最爱”列表中！下次到这个地方时，可不必再扫描 QR 码。</string>
+    <string name="awesome">太棒了！</string>
+
+    <string name="got_it_exclamation_mark">了解！</string>
+
+    <string name="add_this_location_to_favourites">将<u>这个地点存入</u>至“我的最爱”列表中</string>
+    <string name="check_in_fav_added">这个地点已记录在“我的最爱”列表中</string>
+    <string name="saved_to_favourites">已存入“我的最爱”列表中</string>
+    <string name="removed_from_favourites">已从“我的最爱”列表中移除</string>
+
+    <string name="last_qr_check_in">最后登记入场的码</string>
+    <string name="view_pass"><u>查看通行证</u></string> <!--Need underline as hyperlink -->
+
+    <!--For SE Widget-->
+
+    <string name="no_favourites_yet">"我的最爱“列表目前是空的</string>
+    <string name="no_favourites_yet_text">经常到某个地方？点击星号标记，存入“我的最爱”列表中。</string>
+    <string name="see_my_history">查看历史记录</string>
+
+    <string name="by_checking_in_you_agree_with_terms">点击登记入场，意味着您同意所列条款。</string>
+    <string name="your_favourite_places_text">“我的最爱”地点</string>
+
+    <string name="no_results_found">未找到结果</string>
+    <string name="location_not_saved_to_favourites">您搜索的地点不在“我的最爱”列表中</string>
+
+    <string name="add_family_members">添加家庭成员</string>
+    <string name="add_your_family_members">添加您的家庭成员</string>
+    <string name="add_your_family_members_text">请记得为没携带流动设备的家庭成员登记入场。</string>
+
+    <string name="their_nric">他们的 NRIC/FIN 号码是什么？</string>
+    <string name="add_nickname">添加家庭成员的昵称</string>
+
+    <string name="your_family_members">您的家庭成员</string>
+    <string name="you_can_check_in_text">您可替这些家庭成员登记入场</string>
+    <string name="add_another_person">+ 添加另外一个人</string>
+
+    <string name="who_are_you_checking_in_with">您和谁一起登记入场？</string>
+    <string name="select_all">全选</string>
+
+    <string name="invalid_nric_fin">NRIC/FIN 号码无效。请输入有效的 NRIC/FIN 号码。</string>
+    <string name="already_exists">这个 NRIC/FIN 号码已在记录中。</string>
+
+    <string name="se_unavailable">暂时无法使用 SafeEntry QR 应用程序</string>
+    <string name="consider_us">请使用其他方式登记或登出</string>
+
+    <string name="group_check_in_error_title">哎呀！这个地点不允许使用团体登记入场。</string>
+    <string name="group_check_in_error_message">为确保所有访客都启用 TraceTogether 以及在人多的地方更好地保护您，您的家人需要使用自己的 TraceTogether 设备登记入场。</string>
+    <string name="group_check_in_ok_text">好的，仅为我自己登记入场</string>
+    <string name="txt_others">其他</string>
+
+    <string name="more_info"><u>更多信息</u></string>
+    <string name="remove">移除</string>
+    <string name="please_try_again_later">请稍后再试</string>
+
+    <string name="agree">同意</string>
+    <string name="remind_me_again"><u>再次提醒</u></string>
+    <string name="search_from_list_below">从以下列表中搜索</string>
+    <string name="pass_not_supported">(不支持该护照号码)</string>
+    <string name="passport_user_message"><![CDATA[本功能只能在新加坡使用。<b><u>若您目前在新加坡</u></b>, 请重新注册以启用本功能。]]></string>
+    <string name="passport_user_re_registration_detail_text"><![CDATA[<b>您在新加坡时才可继续。</b> 点击下一步将重新设置新的个人资料，您之前保存的数据将被清除。]]></string>
+    <string name="txt_next_step"><![CDATA[<b>下一步：入境新加坡，<u>然后</u> 激活您的应用程序。🤗🇸🇬</b>]]></string>
+    <string name="oversea_number_disclaimer_text">注：本应用程序仅限在新加坡使用。一些国外网络和手机号可能无法接收一次密码进行验证。这时，请使用新加坡本地 SIM 卡设置您的应用程序。</string>
+    <string name="how_it_works_2_text_content_3">数据仅用于追踪确诊病例的密切接触者。若数据需要被用于对严重犯罪行为进行刑事调查，则例外。如果执法机构需要您设备上的追踪数据，您将接获通知和上载指示，指导您如何上载数据。请翻阅我们的隐私策略了解详情。</string>
+    <!--for hyperlinking-->
+    <string name="serious_offences">严重犯罪行</string>
+    <string name="privacy_safeguards">隐私策略</string>
+
+    <string name="error_tries">出现错误的次数太多了。</string>
+    <string name="favourite_check_in_error_message">请重新再试，或扫描 SafeEntry QR 码登入。</string>
+    <string name="favourite_check_in_error_title">糟糕！该地点已更新了他们的 SafeEntry 信息。</string>
+    <string name="upload_cpc">点击继续意味着您将上传您应用程序保存的蓝牙数据，以协助刑事调查和法院诉讼。</string>
+    <string name="stay_safe">谢谢。请保重！</string>
+    <string name="unselect_all">取消全选</string>
+    <string name="user_you">%s (您)</string>
+    <string name="trace_together_devices_nearby">附近有 %s 台设备</string>
+    <string name="min_ago">%s 分钟前</string>
+
+    <string name="your_covid">冠病相关健康状态</string>
+    <string name="vaccinated">已接种疫苗</string>
+    <string name="not_vaccina">尚未接种疫苗</string>
+    <string name="no_exposure_alerts">无亲密接触</string>
+    <string name="coming_soon">即将来临</string>
+    <string name="covid_test_result">冠病检查结果</string>
+    <string name="count_possible_exposure">可能与 %s 人有亲密接触</string>
+    <string name="count_possible_exposures">可能与 %s 人有亲密接触</string>
+    <string name="covid_health_status">冠病相关健康状态</string>
+    <string name="vaccination_status">接种疫苗状态</string>
+    <string name="possible_exposure_details">冠病病患曾到过您去过的地点。疫苗并不能提供百分百的保护，请在接种疫苗后，继续注意身体状况。</string>
+
+</resources>

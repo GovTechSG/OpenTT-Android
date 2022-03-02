@@ -1,0 +1,66 @@
+package sg.gov.tech.bluetrace.analytics
+
+object AnalyticsKeys {
+
+    const val VALUE = "value"
+    const val SCREEN_NAME = "screen_name"
+    const val TRUE = "true"
+    const val FALSE = "false"
+    val REASON = "reason"
+    val ID = "id"
+    val TAG = "TAG"
+    val ERROR_MSG = "error_msg"
+
+    /***************************** Screen names ***************************/
+    const val SCREEN_NAME_HISTORY_MAIN = "HistoryMain"
+    const val SCREEN_NAME_FAVOURITE_MAIN = "FavouriteMain"
+    const val SCREEN_NAME_CHECK_IN_CONFIRMATION = "SECheckInConfirmation"
+    const val SCREEN_NAME_UPLOAD_ENTER_PIN = "UploadEnterPin"
+    const val SCREEN_NAME_SE_MULTI_TENANT = "SEMultiTenant"
+    const val SCREEN_NAME_HOME_PAGE = "HomePage"
+    const val SCREEN_NAME_HOME_TT_PAUSED = "HomeTTPaused"
+    const val SCREEN_NAME_SE_CHECK_IN_PASS = "SECheckInPass"
+    const val SCREEN_NAME_VIEW_PASS = "SEViewPass"
+    const val SCREEN_NAME_SE_CHECK_OUT_PASS = "SECheckOutPass"
+    const val SCREEN_NAME_SE_DISPLAY_BARCODE = "SEDisplayBarcode"
+    const val SCREEN_NAME_SE_SCAN_QR = "SEScanQR"
+    const val SCREEN_NAME_HOME_APP_NOT_WORKING = "HomeAppNotWorking"
+    const val SCREEN_NAME_UPLOAD_COMPLETED = "UploadCompleted"
+    const val SCREEN_NAME_RE_ON_BOARD = "ReOnboard"
+    const val SCREEN_NAME_ON_BOARD_COMPLETED = "OnBoardCompleted"
+    const val SCREEN_NAME_ON_BOARD_DEAR_SG = "OnboardDearSg"
+    const val SCREEN_NAME_ON_BOARD_DATA_USED_ONLY = "OnboardDataUsedOnly"
+    const val SCREEN_NAME_ON_BOARD_OTP = "OnboardOTP"
+    const val SCREEN_NAME_ON_BOARD_BT_PERMISSION = "OnBoardBTPermission"
+    const val SCREEN_NAME_ON_BOARD_RECALL = "OnboardRecall"
+    const val SCREEN_NAME_ON_BOARD_SELECT_PROFILE = "OnboardSelectProfile"
+    const val SCREEN_NAME_ON_BOARD_MOBILE_NUMBER = "OnboardMobileNumber"
+    const val SCREEN_NAME_ON_BOARD_WITH_LOVE = "OnboardwithLove"
+    const val SCREEN_NAME_ON_BOARD_EP_INFO = "OnBoardEPInfo"
+    const val SCREEN_NAME_ON_BOARD_STPLTVPP_INFO = "OnBoardSTPLTVPPInfo"
+    const val SCREEN_NAME_ON_BOARD_LTVP_INFO = "OnBoardLTVPInfo"
+    const val SCREEN_NAME_ON_BOARD_NRIC_INFO = "OnBoardNRICInfo"
+    const val SCREEN_NAME_ON_BOARD_PROFILE_WPDP = "OnBoardProfileWPDP"
+    const val SCREEN_NAME_ON_BOARD_PROFILE_STPLTVP = "OnBoardProfileSTPLTVP"
+    const val SCREEN_NAME_ON_BOARD_PROFILE_NRIC = "OnboardProfileNRIC"
+    const val SCREEN_NAME_ON_BOARD_PROFILE_PASSPORT = "OnBoardProfilePassport"
+    const val SCREEN_NAME_ON_BOARD_STP_INFO = "OnBoardSTPInfo"
+    const val SCREEN_NAME_ON_BOARD_DP_INFO = "OnBoardDPInfo"
+    const val SCREEN_NAME_ON_BOARD_WP_INFO = "OnBoardWPInfo"
+    const val SCREEN_NAME_SE_NO_CAMERA_PERMISSION = "SENoCameraPermission"
+    const val SCREEN_NAME_SETTINGS_PAGE = "SettingsPage"
+    const val SCREEN_NAME_PROFILE_PAGE = "ProfilePage"
+    const val SCREEN_NAME_HELP_SUPPORT = "HelpSupport"
+    const val SCREEN_NAME_SE_CHECK_IN_CONFIRMATION = "SECheckInConfirmation"
+    /***************************** Tap events ***************************/
+    const val SE_TAP_FAVOURITE = "se_tap_favourite"
+
+
+    /***************************** Exception events ***************************/
+    val UPLOAD_ERR = "UPLOAD_ERR"
+    val SAFE_ENTRY_ERROR = "SAFE_ENTRY_ERROR"
+    val TEMPID_ERROR = "app_tempId_exception"
+    val SHORTID_ERROR = "app_shortIDs_exception"
+    val METRICS_ERROR = "app_upload_metrics_failed"
+
+}

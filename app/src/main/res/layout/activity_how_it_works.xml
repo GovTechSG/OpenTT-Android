@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sg.gov.tech.bluetrace.onboarding.newOnboard.HowItWorksActivity">
+
+    <TextView
+        android:id="@+id/btn_back_how_it_works"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingLeft="44dp"
+        android:paddingTop="24dp"
+        android:paddingEnd="44dp"
+        android:paddingBottom="19dp"
+        android:text="@string/back"
+        android:textColor="#BDBDBD"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_right_action_how_it_works"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.matthewtamlin.sliding_intro_screen_library.indicators.DotIndicator
+        android:id="@+id/dot_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="15dp"
+        android:padding="24dp"
+        android:paddingTop="24dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/how_it_works_navigation_host"
+        app:numberOfDots="3"
+        app:selectedDotColor="@color/new_accent"
+        app:selectedDotIndex="0"
+        app:unselectedDotColor="@color/grey_12" />
+
+    <TextView
+        android:id="@+id/btn_right_action_how_it_works"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingLeft="44dp"
+        android:paddingTop="24dp"
+        android:paddingRight="44dp"
+        android:paddingBottom="19dp"
+        android:text="@string/next"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_back_how_it_works" />
+
+    <fragment
+        android:id="@+id/how_it_works_navigation_host"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toTopOf="@+id/dot_indicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09"
+        app:navGraph="@navigation/how_it_works_navigation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

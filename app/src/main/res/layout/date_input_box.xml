@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatEditText
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FormField"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:cursorVisible="false"
+    android:drawableRight="@drawable/down"
+    android:backgroundTint="@color/default_underline"
+    android:hint="@string/date_of_birth"
+    android:imeOptions="actionNext"
+    android:singleLine="true"
+    android:clickable="true"
+    android:focusable="false"
+    android:inputType="none"
+    android:textAllCaps="true" />

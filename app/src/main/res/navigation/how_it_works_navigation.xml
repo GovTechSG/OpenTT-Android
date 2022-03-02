@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/how_it_works_navigation"
+    app:startDestination="@id/onboardingRecallFragment2">
+    <fragment
+        android:id="@+id/onboardingRecallFragment2"
+        android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.OnboardingRecallFragment"
+        android:label="OnboardingRecallFragment" >
+        <action
+            app:enterAnim="@animator/window_slideleft_enter"
+            app:exitAnim="@animator/window_slideleft_exit"
+            app:popEnterAnim="@animator/window_slideright_enter"
+            app:popExitAnim="@animator/window_slideright_exit"
+            android:id="@+id/action_onboardingRecallFragment2_to_onboardingHowItWorkSecondFragment"
+            app:destination="@id/onboardingHowItWorkSecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingHowItWorkSecondFragment"
+        android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.OnboardingHowItWorkSecondFragment"
+        android:label="OnboardingHowItWorkSecondFragment" >
+        <action
+            android:id="@+id/action_onboardingHowItWorkSecondFragment_to_mainOnboardingActivity"
+            app:destination="@id/mainOnboardingActivity" />
+        <action
+            android:id="@+id/action_onboardingHowItWorkSecondFragment_to_webViewZendeskSupportFragment"
+            app:destination="@id/webViewZendeskSupportFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/mainOnboardingActivity"
+        android:name="sg.gov.tech.bluetrace.onboarding.newOnboard.MainOnboardingActivity"
+        android:label="HowItWorksActivity" />
+    <fragment
+        android:id="@+id/webViewZendeskSupportFragment"
+        android:name="sg.gov.tech.bluetrace.zendesk.WebViewZendeskSupportFragment"
+        android:label="WebViewZendeskSupportFragment">
+    </fragment>
+
+</navigation>

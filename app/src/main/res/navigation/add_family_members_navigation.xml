@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_family_members"
+    app:startDestination="@id/emptyFamilyMembersFragment">
+
+    <fragment
+        android:id="@+id/emptyFamilyMembersFragment"
+        android:name="sg.gov.tech.bluetrace.groupCheckIn.addFamilyMembers.EmptyFamilyMembersFragment"
+        android:label="EmptyFamilyMembersFragment"
+        tools:layout="@layout/fragment_empty_family_members">
+        <action
+            android:id="@+id/action_fragmentEmptyFamilyMembers_to_fragmentAddFamilyMembers"
+            app:destination="@id/addFamilyMembersFragment"
+            app:enterAnim="@animator/window_slideleft_enter"
+            app:exitAnim="@animator/window_slideleft_exit"
+            app:popEnterAnim="@animator/window_slideright_enter"
+            app:popExitAnim="@animator/window_slideright_exit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addFamilyMembersFragment"
+        android:name="sg.gov.tech.bluetrace.groupCheckIn.addFamilyMembers.AddFamilyMembersFragment"
+        android:label="AddFamilyMembersFragment"
+        tools:layout="@layout/fragment_add_family_members" />
+
+</navigation>

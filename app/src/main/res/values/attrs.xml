@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DocumentSelectorView">
+        <attr name="stringMsgSelected" format="string"/>
+        <attr name="stringMsgUnselected" format="string"/>
+        <attr name="stringMsgNeutral" format="string"/>
+
+        <attr name="stringSubMsgSelected" format="string"/>
+        <attr name="stringSubMsgUnselected" format="string"/>
+        <attr name="stringSubMsgNeutral" format="string"/>
+
+        <attr name="textColorNeutral" format="color"/>
+        <attr name="textColorSelected" format="color"/>
+        <attr name="textColorUnselected" format="color"/>
+
+        <attr name="backgroundNeutral" format="color"/>
+        <attr name="backgroundSelected" format="color"/>
+        <attr name="backgroundUnselected" format="color" />
+
+        <attr name="imageNeutral" format="reference" />
+        <attr name="imageSelected" format="reference" />
+        <attr name="imageUnselected" format="reference" />
+
+        <attr name="prepareImage" format="reference" />
+        <attr name="prepareText" format="string" />
+        <attr name="subTextVisibility" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ScannerOverlay">
+        <attr name="square_width" format="integer" />
+        <attr name="square_height" format="integer" />
+        <attr name="line_color" format="color" />
+        <attr name="line_width" format="integer" />
+        <attr name="line_speed" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="BarcodeReader">
+        <attr name="auto_focus" format="boolean" />
+        <attr name="use_flash" format="boolean" />
+    </declare-styleable>
+
+</resources>
